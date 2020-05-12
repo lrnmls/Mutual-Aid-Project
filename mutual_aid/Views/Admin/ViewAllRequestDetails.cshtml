@@ -1,0 +1,262 @@
+﻿@using System.Text.RegularExpressions
+@model Request
+@{
+    ViewData["Title"] = "ViewAllRequestDetails";
+}
+
+<div class="page-info">
+    <h2>Request Information</h2>
+    <h4>
+        Requester's Information<br />
+        <br />
+        Name: @Model.LastName, @Model.FirstName<br />
+        Phone Number: @Regex.Replace(Model.PhoneNumber, @"(\d{3})(\d{3})(\d{4})", "($1) $2-$3")<br />
+        Email: @Model.Email<br />
+        County: @Model.County<br />
+    </h4>
+
+    @if (Model.IsAccepted == 1 && Model.IsCompleted == 1)
+    {
+        <table class="request">
+            <tr>
+                <th>Request #:</th>
+                <td>@Model.Id</td>
+            </tr>
+            <tr>
+                <th>Request Date:</th>
+                <td>@Model.Date.Date.ToString("MM/dd/yyyy")</td>
+            </tr>
+            <tr>
+                <th>Status:</th>
+                <td>Completed @Model.CompletedDate.Date.ToString("MM/dd/yyyy")</td>
+            </tr>
+            <tr>
+                <th>Toilet Paper</th>
+                <td>@Model.ToiletPaper</td>
+            </tr>
+            <tr>
+                <th>Paper Towels</th>
+                <td>@Model.PaperTowels</td>
+            </tr>
+            <tr>
+                <th>Hand Soap</th>
+                <td>@Model.HandSoap</td>
+            </tr>
+            <tr>
+                <th>Shampoo</th>
+                <td>@Model.Shampoo</td>
+            </tr>
+            <tr>
+                <th>Conditioner</th>
+                <td>@Model.Conditioner</td>
+            </tr>
+            <tr>
+                <th>Toothpaste</th>
+                <td>@Model.Toothpaste</td>
+            </tr>
+            <tr>
+                <th>Disinfectant</th>
+                <td>@Model.Disinfectant</td>
+            </tr>
+            <tr>
+                <th>Dairy</th>
+                <td>@Model.Dairy</td>
+            </tr>
+            <tr>
+                <th>Bread</th>
+                <td>@Model.Bread</td>
+            </tr>
+            <tr>
+                <th>Cereal</th>
+                <td>@Model.Cereal</td>
+            </tr>
+            <tr>
+                <th>Pantry Items</th>
+                <td>@Model.Pantry</td>
+            </tr>
+            <tr>
+                <th>Produce</th>
+                <td>@Model.Produce</td>
+            </tr>
+            <tr>
+                <th>Canned Food</th>
+                <td>@Model.CannedFood</td>
+            </tr>
+            <tr>
+                <th>Meat</th>
+                <td>@Model.Meat</td>
+            </tr>
+            <tr>
+                <th>Seafood</th>
+                <td>@Model.Seafood</td>
+            </tr>
+            <tr>
+                <th>Allergies</th>
+                <td>@Model.Allergens</td>
+            </tr>
+        </table>
+    }
+    else if (Model.IsAccepted == 1 && Model.IsCompleted == 0)
+    {
+        <table class="request">
+            <tr>
+                <th>Request #:</th>
+                <td>@Model.Id</td>
+            </tr>
+            <tr>
+                <th>Request Date:</th>
+                <td>@Model.Date.Date.ToString("MM/dd/yyyy")</td>
+            </tr>
+            <tr>
+                <th>Status:</th>
+                <td>Accepted @Model.AcceptedDate.Date.ToString("MM/dd/yyyy")</td>
+            </tr>
+            <tr>
+                <th>Toilet Paper</th>
+                <td>@Model.ToiletPaper</td>
+            </tr>
+            <tr>
+                <th>Paper Towels</th>
+                <td>@Model.PaperTowels</td>
+            </tr>
+            <tr>
+                <th>Hand Soap</th>
+                <td>@Model.HandSoap</td>
+            </tr>
+            <tr>
+                <th>Shampoo</th>
+                <td>@Model.Shampoo</td>
+            </tr>
+            <tr>
+                <th>Conditioner</th>
+                <td>@Model.Conditioner</td>
+            </tr>
+            <tr>
+                <th>Toothpaste</th>
+                <td>@Model.Toothpaste</td>
+            </tr>
+            <tr>
+                <th>Disinfectant</th>
+                <td>@Model.Disinfectant</td>
+            </tr>
+            <tr>
+                <th>Dairy</th>
+                <td>@Model.Dairy</td>
+            </tr>
+            <tr>
+                <th>Bread</th>
+                <td>@Model.Bread</td>
+            </tr>
+            <tr>
+                <th>Cereal</th>
+                <td>@Model.Cereal</td>
+            </tr>
+            <tr>
+                <th>Pantry Items</th>
+                <td>@Model.Pantry</td>
+            </tr>
+            <tr>
+                <th>Produce</th>
+                <td>@Model.Produce</td>
+            </tr>
+            <tr>
+                <th>Canned Food</th>
+                <td>@Model.CannedFood</td>
+            </tr>
+            <tr>
+                <th>Meat</th>
+                <td>@Model.Meat</td>
+            </tr>
+            <tr>
+                <th>Seafood</th>
+                <td>@Model.Seafood</td>
+            </tr>
+            <tr>
+                <th>Allergies</th>
+                <td>@Model.Allergens</td>
+            </tr>
+        </table>
+    }
+    else
+    {
+        <table class="request">
+            <tr>
+                <th>Request #:</th>
+                <td>@Model.Id</td>
+            </tr>
+            <tr>
+                <th>Request Date:</th>
+                <td>@Model.Date.Date.ToString("MM/dd/yyyy")</td>
+            </tr>
+            <tr>
+                <th>Status:</th>
+                <td>Pending</td>
+            </tr>
+            <tr>
+                <th>Toilet Paper</th>
+                <td>@Model.ToiletPaper</td>
+            </tr>
+            <tr>
+                <th>Paper Towels</th>
+                <td>@Model.PaperTowels</td>
+            </tr>
+            <tr>
+                <th>Hand Soap</th>
+                <td>@Model.HandSoap</td>
+            </tr>
+            <tr>
+                <th>Shampoo</th>
+                <td>@Model.Shampoo</td>
+            </tr>
+            <tr>
+                <th>Conditioner</th>
+                <td>@Model.Conditioner</td>
+            </tr>
+            <tr>
+                <th>Toothpaste</th>
+                <td>@Model.Toothpaste</td>
+            </tr>
+            <tr>
+                <th>Disinfectant</th>
+                <td>@Model.Disinfectant</td>
+            </tr>
+            <tr>
+                <th>Dairy</th>
+                <td>@Model.Dairy</td>
+            </tr>
+            <tr>
+                <th>Bread</th>
+                <td>@Model.Bread</td>
+            </tr>
+            <tr>
+                <th>Cereal</th>
+                <td>@Model.Cereal</td>
+            </tr>
+            <tr>
+                <th>Pantry Items</th>
+                <td>@Model.Pantry</td>
+            </tr>
+            <tr>
+                <th>Produce</th>
+                <td>@Model.Produce</td>
+            </tr>
+            <tr>
+                <th>Canned Food</th>
+                <td>@Model.CannedFood</td>
+            </tr>
+            <tr>
+                <th>Meat</th>
+                <td>@Model.Meat</td>
+            </tr>
+            <tr>
+                <th>Seafood</th>
+                <td>@Model.Seafood</td>
+            </tr>
+            <tr>
+                <th>Allergies</th>
+                <td>@Model.Allergens</td>
+            </tr>
+        </table>
+    }
+    <a asp-controller="Admin" asp-action="ViewAllRequests">Back to Requests</a>
+</div>

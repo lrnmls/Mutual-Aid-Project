@@ -32,16 +32,21 @@ namespace mutual_aid.Models.Account
         [DataType(DataType.PhoneNumber)]
         public string PhoneNumber { get; set; }
 
-        public string Role { get; set; } = "user";
+        public string Role { get; set; }
+
+        public bool isAdmin { get; set; }
 
         [Required]
         public string County { get; set; }
 
         public static List<SelectListItem> OhioCounties = new List<SelectListItem>()
             {
+                new SelectListItem() { Text = "Select County" },
+                new SelectListItem() { Text = "Adams", Value = "Adams" },
                 new SelectListItem() { Text = "Adams", Value = "Adams" },
                 new SelectListItem() { Text = "Allen", Value = "Allen" },
                 new SelectListItem() { Text = "Ashland", Value = "Ashland" },
+                new SelectListItem() { Text = "Ashtabula", Value = "Ashtabula" },
                 new SelectListItem() { Text = "Ashtabula", Value = "Ashtabula" },
                 new SelectListItem() { Text = "Athens", Value = "Athens" },
                 new SelectListItem() { Text = "Auglaize", Value = "Auglaize" },

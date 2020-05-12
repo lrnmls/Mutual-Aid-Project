@@ -56,7 +56,9 @@
                 }
                 else if (isAdmin)
                 {
-
+                    <a asp-controller="Home" asp-action="Index">Home</a>
+                    <a asp-controller="Admin" asp-action="AdminHomePage">My Account</a>
+                    <a asp-controller="Account" asp-action="Logoff">Logout</a>
                 }
                 else
                 {

@@ -7,12 +7,23 @@
     <h2>Request Information</h2>
     <form asp-controller="Requests" asp-action="AcceptedRequest" method="post">
         <h4>
-            Name: @Model.FirstName<br />
-            Date: @Model.Date.Date.ToString("MM/dd/yyyy")<br />
+            Requester's Information<br />
+            <br />
+            Name: @Model.LastName, @Model.FirstName<br />
+            Phone Number: @Model.PhoneNumber<br />
+            Email: @Model.Email<br />
             County: @Model.County<br />
         </h4>
 
         <table class="request">
+            <tr>
+                <th>Request #</th>
+                <td>@Model.Id</td>
+            </tr>
+            <tr>
+                <th>Request Date</th>
+                <td>@Model.Date.Date.ToString("MM/dd/yyyy")</td>
+            </tr>
             <tr>
                 <th>Toilet Paper</th>
                 <td>@Model.ToiletPaper</td>

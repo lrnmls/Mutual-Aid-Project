@@ -17,9 +17,12 @@ namespace mutual_aid.DAL
             this.connectionString = connectionString;
         }
 
-        public List<Request> GetAllRequests(int userId)
+        public List<Request> GetAllRequests()
         {
-            string GetAllRequestsSQL = "SELECT * FROM requests JOIN users ON users.id = requests.user_id WHERE is_accepted = 0 AND users.id <> @user_id ORDER BY county";
+            string GetAllRequestsSQL = "SELECT * FROM requests JOIN users ON users.id = requests.user_id " +
+                "FULL JOIN accepted_requests ON accepted_requests.accepted_request_id = requests.id " +
+                "FULL JOIN completed_requests ON completed_requests.completed_request_id = requests.id ORDER BY is_completed, is_accepted";
+
             List<Request> requests = new List<Request>();
 
             try
@@ -28,6 +31,64 @@ namespace mutual_aid.DAL
                 {
                     conn.Open();
                     SqlCommand cmd = new SqlCommand(GetAllRequestsSQL, conn);
+
+                    SqlDataReader reader = cmd.ExecuteReader();
+
+                    while (reader.Read())
+                    {
+                        requests.Add(MapRowToItemsExtended(reader));
+                    }
+                }
+                return requests;
+            }
+            catch (SqlException ex)
+            {
+                throw ex;
+            }
+        }
+
+        public List<Request> GetAllRequestsByCounty(string county)
+        {
+            string GetAllRequestsSQL = "SELECT * FROM requests JOIN users ON users.id = requests.user_id " +
+                "FULL JOIN accepted_requests ON accepted_requests.accepted_request_id = requests.id " +
+                "FULL JOIN completed_requests ON completed_requests.completed_request_id = requests.id WHERE county = @county";
+
+            List<Request> requests = new List<Request>();
+
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(connectionString))
+                {
+                    conn.Open();
+                    SqlCommand cmd = new SqlCommand(GetAllRequestsSQL, conn);
+                    cmd.Parameters.AddWithValue("@county", county);
+
+                    SqlDataReader reader = cmd.ExecuteReader();
+
+                    while (reader.Read())
+                    {
+                        requests.Add(MapRowToItemsExtended(reader));
+                    }
+                }
+                return requests;
+            }
+            catch (SqlException ex)
+            {
+                throw ex;
+            }
+        }
+
+        public List<Request> GetUserRequests(int userId)
+        {
+            string GetUserRequestsSQL = "SELECT * FROM requests JOIN users ON users.id = requests.user_id WHERE is_accepted = 0 AND users.id <> @user_id ORDER BY county";
+            List<Request> requests = new List<Request>();
+
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(connectionString))
+                {
+                    conn.Open();
+                    SqlCommand cmd = new SqlCommand(GetUserRequestsSQL, conn);
                     cmd.Parameters.AddWithValue("@user_id", userId);
 
                     SqlDataReader reader = cmd.ExecuteReader();
@@ -158,7 +219,7 @@ namespace mutual_aid.DAL
 
         public List<string> GetCounties(int userId)
         {
-            string GetCountiesSQL = "SELECT county FROM users WHERE id <> @id GROUP BY county";
+            string GetCountiesSQL = "SELECT county FROM users JOIN requests ON requests.user_id = users.id WHERE users.id <> @id GROUP BY county";
             List<string> counties = new List<string>();
 
             using (SqlConnection conn = new SqlConnection(connectionString))

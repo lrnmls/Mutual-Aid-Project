@@ -77,7 +77,7 @@ namespace mutual_aid.Providers.Auth
             return null;
         }
 
-        public void Register(string email, string password, string firstName, string lastName, string phoneNumber, string county, string role)
+        public void Register(string email, string password, string role, string firstName, string lastName, string phoneNumber, string county)
         {
             var hashProvider = new HashProvider();
             var passwordHash = hashProvider.HashPassword(password);
@@ -86,12 +86,12 @@ namespace mutual_aid.Providers.Auth
             {
                 Email = email,
                 Password = passwordHash.Password,
+                Role = role,
                 Salt = passwordHash.Salt,
                 FirstName = firstName,
                 LastName = lastName,
                 PhoneNumber = phoneNumber,
-                County = county,
-                Role = role
+                County = county
             };
 
             userDAO.RegisterUser(user);

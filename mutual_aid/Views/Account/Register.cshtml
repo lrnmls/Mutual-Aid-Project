@@ -56,6 +56,11 @@
         <p>
             <select asp-for="County" asp-items="mutual_aid.Models.Account.RegisterViewModel.OhioCounties" class="dropbtn"></select>
         </p>
+        @*<div class="checkbox">
+            <label>
+                <input asp-for="isAdmin" /> @Html.DisplayNameFor(model => model.isAdmin)
+            </label>
+        </div>*@
         <input type="submit" value="Register" class="btn btn-primary" />
     </form>
 </div>

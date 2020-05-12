@@ -88,7 +88,7 @@ namespace mutual_aid.Controllers
                 else
                 {
                     // Redirect the user where you want them to go after registering
-                    authProvider.Register(model.Email, model.Password, model.FirstName, model.LastName, model.PhoneNumber, model.County, model.Role);
+                    authProvider.Register(model.Email, model.Password, role: "user", model.FirstName, model.LastName, model.PhoneNumber, model.County);
                     
 
                     return RedirectToAction("Login", "Account");

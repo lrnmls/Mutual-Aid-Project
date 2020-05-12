@@ -3,16 +3,21 @@
     ViewData["Title"] = "ViewRequestsByCounty";
 }
 
-<div class="page-info">
-    <h2>View Requests By County</h2>
+    <div class="page-info">
+        <h2>View Requests By County</h2>
 
-    <form asp-controller="Requests" asp-action="ViewRequestsByCountyResult" method="get">
-
-        <p><label asp-for="County">Choose County:</label></p>
         <p>
-            <select asp-for="County" asp-items="Model.Counties"></select>
+            Here's a reference of where all counties in Ohio are:
+            <a href="https://en.wikipedia.org/wiki/List_of_counties_in_Ohio">Ohio County Locations</a>
         </p>
 
-        <button type="submit">Search</button>
-    </form>
-</div>
+        <form asp-controller="Requests" asp-action="ViewRequestsByCountyResult" method="get">
+
+            <p><label asp-for="County">Choose County:</label></p>
+            <p>
+                <select asp-for="County" asp-items="Model.Counties"></select>
+            </p>
+
+            <button type="submit">Search</button>
+        </form>
+    </div>

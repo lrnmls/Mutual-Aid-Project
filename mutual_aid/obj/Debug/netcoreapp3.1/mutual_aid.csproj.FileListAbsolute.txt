@@ -494,3 +494,10 @@ C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\
 C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Requests\ViewRequestsByCounty.cshtml.g.cs
 C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Requests\ViewRequestsByCountyResult.cshtml.g.cs
 C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\User\ChangeUserInfo.cshtml.g.cs
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Admin\AdminHomePage.cshtml.g.cs
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Admin\CreateNewUser.cshtml.g.cs
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ViewAllIncompleteRequests.cshtml.g.cs
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ViewAllRequestDetails.cshtml.g.cs
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ViewAllRequests.cshtml.g.cs
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ViewAllRequestsByCounty.cshtml.g.cs
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ViewAllRequestsByCountyResult.cshtml.g.cs

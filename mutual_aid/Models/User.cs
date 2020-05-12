@@ -38,6 +38,8 @@ namespace mutual_aid.Models
 
         public string Role { get; set; }
 
+        public bool isAdmin { get; set; } = false;
+
         [Required]
         public string FirstName { get; set; }
 

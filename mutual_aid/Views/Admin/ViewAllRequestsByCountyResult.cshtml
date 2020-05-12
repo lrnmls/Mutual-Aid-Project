@@ -1,10 +1,9 @@
 ﻿@model Request
 @{
-    ViewData["Title"] = "ViewRequestsByCountyResult";
+    ViewData["Title"] = "ViewAllRequestsByCountyResult";
 }
 
 <div class="page-info">
-
     <h2>View Requests By County</h2>
 
     <p>
@@ -12,7 +11,7 @@
         <a href="https://en.wikipedia.org/wiki/List_of_counties_in_Ohio">Ohio County Locations</a>
     </p>
 
-    <form asp-controller="Requests" asp-action="ViewRequestsByCountyResult" method="get">
+    <form asp-controller="Admin" asp-action="ViewAllRequestsByCountyResult" method="get">
 
         <p><label asp-for="County">Choose County:</label></p>
         <p>
@@ -20,9 +19,7 @@
         </p>
 
         <button type="submit">Search</button>
-
     </form>
-
     @foreach (Request request in Model.SearchResults)
     {
         <h4>
@@ -32,7 +29,7 @@
             County: @request.County<br />
         </h4>
 
-        <form asp-controller="Requests" asp-action="ViewRequestDetails" method="get">
+        <form asp-controller="Admin" asp-action="ViewAllRequestDetails" method="get">
             <input type="submit" value="View Details" class="btn btn-primary" />
             <input type="hidden" asp-for="@request.Id" name="requestId" class="form-control" />
         </form>

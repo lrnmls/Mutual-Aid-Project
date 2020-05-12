@@ -41,7 +41,7 @@ namespace mutual_aid.Controllers
         public IActionResult ViewRequests(Request request)
         {
             User user = authProvider.GetCurrentUser();
-            List<Request> requests = requestDAO.GetAllRequests(user.Id);
+            List<Request> requests = requestDAO.GetUserRequests(user.Id);
             return View(requests);
         }
 
