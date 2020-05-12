@@ -1,0 +1,31 @@
+﻿@model mutual_aid.Models.Account.LoginViewModel
+
+@{
+    ViewData["Title"] = "View";
+}
+
+<div class="page-info">
+    <h2>Login</h2>
+    <hr />
+    <form asp-action="Login" asp-controller="Account" method="post">
+        <p>@ViewBag.ErrorLoginMessage</p>
+        <p>@ViewBag.RegistrationSuccess</p>
+        <p>
+            <label asp-for="Email" class="control-label">Email</label>
+        </p>
+        <p>
+            <input asp-for="Email" class="form-control" />
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </p>
+        <p>
+            <label asp-for="Password" class="control-label">Password</label>
+        </p>
+        <p>
+            <input asp-for="Password" class="form-control" />
+            <span asp-validation-for="Password" class="text-danger"></span>
+        </p>
+        <p>Don't have an account? No problem, create an account <a asp-controller="Account" asp-action="Register">here</a>!</p>
+
+        <input type="submit" value="Login" class="btn btn-primary" />
+    </form>
+</div>

@@ -1,0 +1,89 @@
+﻿@using System.Text.RegularExpressions;
+@model Request
+@{
+    ViewData["Title"] = "AcceptedRequest";
+}
+<div class="page-info">
+    <p>
+        Thank you for accepting this request.
+        You will be emailed a summary of the order and your requester's information.
+        Please get in contact with @Model.FirstName for a plan of delivery.
+        We appreciate your help within the community!
+    </p>
+
+    <h2>Summary:</h2>
+    @{
+        <p>Name: @Model.FirstName @Model.LastName</p>
+        <p>Phone Number: @Regex.Replace(Model.PhoneNumber, @"(\d{3})(\d{3})(\d{4})", "($1) $2-$3")</p>
+        <p>Email: @Model.Email</p>
+        <p>County: @Model.County</p>
+        <p>Date Requested: @Model.Date</p>
+
+        <table class="request">
+            <tr>
+                <th>Toilet Paper</th>
+                <td>@Model.ToiletPaper</td>
+            </tr>
+            <tr>
+                <th>Paper Towels</th>
+                <td>@Model.PaperTowels</td>
+            </tr>
+            <tr>
+                <th>Hand Soap</th>
+                <td>@Model.HandSoap</td>
+            </tr>
+            <tr>
+                <th>Shampoo</th>
+                <td>@Model.Shampoo</td>
+            </tr>
+            <tr>
+                <th>Conditioner</th>
+                <td>@Model.Conditioner</td>
+            </tr>
+            <tr>
+                <th>Toothpaste</th>
+                <td>@Model.Toothpaste</td>
+            </tr>
+            <tr>
+                <th>Disinfectant</th>
+                <td>@Model.Disinfectant</td>
+            </tr>
+            <tr>
+                <th>Dairy</th>
+                <td>@Model.Dairy</td>
+            </tr>
+            <tr>
+                <th>Bread</th>
+                <td>@Model.Bread</td>
+            </tr>
+            <tr>
+                <th>Cereal</th>
+                <td>@Model.Cereal</td>
+            </tr>
+            <tr>
+                <th>Pantry Items</th>
+                <td>@Model.Pantry</td>
+            </tr>
+            <tr>
+                <th>Produce</th>
+                <td>@Model.Produce</td>
+            </tr>
+            <tr>
+                <th>Canned Food</th>
+                <td>@Model.CannedFood</td>
+            </tr>
+            <tr>
+                <th>Meat</th>
+                <td>@Model.Meat</td>
+            </tr>
+            <tr>
+                <th>Seafood</th>
+                <td>@Model.Seafood</td>
+            </tr>
+            <tr>
+                <th>Allergies</th>
+                <td>@Model.Allergens</td>
+            </tr>
+        </table>
+    }
+</div>

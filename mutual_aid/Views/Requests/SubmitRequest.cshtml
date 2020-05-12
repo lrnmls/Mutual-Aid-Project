@@ -1,0 +1,113 @@
+﻿@model mutual_aid.Models.Request
+
+@{
+    ViewData["Title"] = "View";
+}
+
+<div class="page-info">
+    <h2>Submit Request</h2>
+    <hr />
+    <form asp-action="SubmitRequest" asp-controller="Requests" method="post">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+        <p>
+            <label asp-for="ToiletPaper" class="control-label">Toilet Paper</label>
+        </p>
+        <p>
+            <textarea asp-for="ToiletPaper" rows="5" cols="50" class="form-control" placeholder="please enter quantity and type"></textarea>
+        </p>
+        <p>
+            <label asp-for="PaperTowels" class="control-label">Paper Towels</label>
+        </p>
+        <p>
+            <textarea asp-for="PaperTowels" rows="5" cols="50" class="form-control" placeholder="please enter quantity and type"></textarea>
+        </p>
+        <p>
+            <label asp-for="HandSoap" class="control-label">Hand Soap</label>
+        </p>
+        <p>
+            <textarea asp-for="HandSoap" rows="5" cols="50" class="form-control" placeholder="please enter quantity and type"></textarea>
+        </p>
+        <p>
+            <label asp-for="Shampoo" class="control-label">Shampoo</label>
+        </p>
+        <p>
+            <textarea asp-for="Shampoo" rows="5" cols="50" class="form-control" placeholder="please enter quantity and type"></textarea>
+        </p>
+        <p>
+            <label asp-for="Conditioner" class="control-label">Conditioner</label>
+        </p>
+        <p>
+            <textarea asp-for="Conditioner" rows="5" cols="50" class="form-control" placeholder="please enter quantity and type"></textarea>
+        </p>
+        <p>
+            <label asp-for="Toothpaste" class="control-label">Toothpaste</label>
+        </p>
+        <p>
+            <textarea asp-for="Toothpaste" rows="5" cols="50" class="form-control" placeholder="please enter quantity and type"></textarea>
+        </p>
+        <p>
+            <label asp-for="Disinfectant" class="control-label">Disinfectant</label>
+        </p>
+        <p>
+            <textarea asp-for="Disinfectant" rows="5" cols="50" class="form-control" placeholder="please enter quantity and type"></textarea>
+        </p>
+        <p>
+            <label asp-for="Dairy" class="control-label">Dairy Items</label>
+        </p>
+        <p>
+            <textarea asp-for="Dairy" rows="5" cols="50" class="form-control" placeholder="please enter quantity and type of dairy items (milk, cheese, etc.)"></textarea>
+        </p>
+        <p>
+            <label asp-for="Bread" class="control-label">Bread Items</label>
+        </p>
+        <p>
+            <textarea asp-for="Bread" rows="5" cols="50" class="form-control" placeholder="please enter quantity and type of bread"></textarea>
+        </p>
+        <p>
+            <label asp-for="Produce" class="control-label">Produce</label>
+        </p>
+        <p>
+            <textarea asp-for="Produce" rows="5" cols="50" class="form-control" placeholder="please enter quantity and type of produce"></textarea>
+        </p>
+        <p>
+            <label asp-for="CannedFood" class="control-label">Canned Food</label>
+        </p>
+        <p>
+            <textarea asp-for="CannedFood" rows="5" cols="50" class="form-control" placeholder="please enter quantity and type of canned foods (beans, tomato sauce, etc.)"></textarea>
+        </p>
+        <p>
+            <label asp-for="Meat" class="control-label">Meat Items</label>
+        </p>
+        <p>
+            <textarea asp-for="Meat" rows="5" cols="50" class="form-control" placeholder="please enter quantity and type of meat (chicken, deli meat, etc.)"></textarea>
+        </p>
+        <p>
+            <label asp-for="Seafood" class="control-label">Seafood</label>
+        </p>
+        <p>
+            <textarea asp-for="Seafood" rows="5" cols="50" class="form-control" placeholder="please enter quantity and type"></textarea>
+        </p>
+        <p>
+            <label asp-for="Cereal" class="control-label">Cereal</label>
+        </p>
+        <p>
+            <textarea asp-for="Cereal" rows="5" cols="50" class="form-control" placeholder="please enter quantity and type"></textarea>
+        </p>
+        <p>
+            <label asp-for="Pantry" class="control-label">Pantry Items</label>
+        </p>
+        <p>
+            <textarea asp-for="Pantry" rows="5" cols="50" class="form-control" placeholder="please enter quantity and type"></textarea>
+        </p>
+        <p>
+            <label asp-for="Allergens" class="control-label">Any Allergies?</label>
+        </p>
+        <p>
+            <textarea asp-for="Allergens" rows="5" cols="50" class="form-control" placeholder="please enter quantity and type"></textarea>
+        </p>
+
+        <input type="submit" value="Submit Request" class="btn btn-primary" />
+    </form>
+</div>
+

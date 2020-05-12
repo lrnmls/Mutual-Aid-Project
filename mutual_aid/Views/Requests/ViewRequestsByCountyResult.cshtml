@@ -1,0 +1,34 @@
+﻿@model Request
+@{
+    ViewData["Title"] = "ViewRequestsByCountyResult";
+}
+
+<div class="page-info">
+
+    <h2>View Requests By County</h2>
+
+    <form asp-controller="Requests" asp-action="ViewRequestsByCountyResult" method="get">
+
+        <p><label asp-for="County">Choose County:</label></p>
+        <p>
+            <select asp-for="County" asp-items="Model.Counties"></select>
+        </p>
+
+        <button type="submit">Search</button>
+
+    </form>
+
+    @foreach (Request request in Model.SearchResults)
+    {
+        <h4>
+            Request #: @request.Id<br />
+            Name: @request.FirstName<br />
+            Date: @request.Date.Date.ToString("MM/dd/yyyy")<br />
+            County: @request.County<br />
+        </h4>
+        <form asp-controller="Requests" asp-action="ViewRequestDetails" method="get">
+            <input type="submit" value="View Details" class="btn btn-primary" />
+            <input type="hidden" asp-for="@request.Id" name="requestId" class="form-control" />
+        </form>
+    }
+</div>

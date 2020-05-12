@@ -1,0 +1,85 @@
+﻿@model Request
+@{
+    ViewData["Title"] = "RequestDetails";
+}
+
+<div class="page-info">
+    <h2>Request Information</h2>
+    <form asp-controller="Requests" asp-action="AcceptedRequest" method="post">
+        <h4>
+            Name: @Model.FirstName<br />
+            Date: @Model.Date.Date.ToString("MM/dd/yyyy")<br />
+            County: @Model.County<br />
+        </h4>
+
+        <table class="request">
+            <tr>
+                <th>Toilet Paper</th>
+                <td>@Model.ToiletPaper</td>
+            </tr>
+            <tr>
+                <th>Paper Towels</th>
+                <td>@Model.PaperTowels</td>
+            </tr>
+            <tr>
+                <th>Hand Soap</th>
+                <td>@Model.HandSoap</td>
+            </tr>
+            <tr>
+                <th>Shampoo</th>
+                <td>@Model.Shampoo</td>
+            </tr>
+            <tr>
+                <th>Conditioner</th>
+                <td>@Model.Conditioner</td>
+            </tr>
+            <tr>
+                <th>Toothpaste</th>
+                <td>@Model.Toothpaste</td>
+            </tr>
+            <tr>
+                <th>Disinfectant</th>
+                <td>@Model.Disinfectant</td>
+            </tr>
+            <tr>
+                <th>Dairy</th>
+                <td>@Model.Dairy</td>
+            </tr>
+            <tr>
+                <th>Bread</th>
+                <td>@Model.Bread</td>
+            </tr>
+            <tr>
+                <th>Cereal</th>
+                <td>@Model.Cereal</td>
+            </tr>
+            <tr>
+                <th>Pantry Items</th>
+                <td>@Model.Pantry</td>
+            </tr>
+            <tr>
+                <th>Produce</th>
+                <td>@Model.Produce</td>
+            </tr>
+            <tr>
+                <th>Canned Food</th>
+                <td>@Model.CannedFood</td>
+            </tr>
+            <tr>
+                <th>Meat</th>
+                <td>@Model.Meat</td>
+            </tr>
+            <tr>
+                <th>Seafood</th>
+                <td>@Model.Seafood</td>
+            </tr>
+            <tr>
+                <th>Allergies</th>
+                <td>@Model.Allergens</td>
+            </tr>
+        </table>
+        <input type="submit" value="Accept Request" class="btn btn-primary" />
+        <input type="hidden" asp-for="@Model.Id" name="requestId" class="form-control" />
+        <a asp-controller="Requests" asp-action="ViewRequests">Back to Request</a>
+    </form>
+</div>

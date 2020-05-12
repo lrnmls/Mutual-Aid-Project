@@ -1,0 +1,23 @@
+﻿@using System.Text.RegularExpressions
+@model List<Request>
+@{
+    ViewData["Title"] = "IncompleteRequestsByAcceptedUser";
+}
+
+<div class="page-info">
+    <h2>Incomplete Requests</h2>
+    @ViewBag.NoRequestsMessage
+    @foreach (Request request in Model)
+    {
+        <h4>
+            Request #: @request.Id<br />
+            Name: @request.FirstName @request.LastName<br />
+            Date: @request.Date.Date.ToString("MM/dd/yyyy")<br />
+        </h4>
+
+        <form asp-controller="Requests" asp-action="ViewIncompleteRequestDetails" method="get">
+            <input type="submit" value="View Details" class="btn btn-primary" />
+            <input type="hidden" asp-for="@request.Id" name="requestId" class="form-control" />
+        </form>
+    }
+</div>

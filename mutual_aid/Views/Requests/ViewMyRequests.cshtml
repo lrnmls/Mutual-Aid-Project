@@ -1,0 +1,50 @@
+﻿@using System.Text.RegularExpressions
+@model List<Request>
+@{
+    ViewData["Title"] = "ViewMyRequests";
+}
+
+<div class="page-info">
+    <h2>View My Requests</h2>
+    <p>@ViewBag.NoRequestsMessage</p>
+    @foreach (Request request in Model)
+    {
+        @if (request.IsAccepted == 1 && request.IsCompleted == 1)
+        {
+            <h4>
+                Request #: @request.Id<br />
+                Status: <span style="color: darkorange">Completed</span><br />
+                Date Accepted: @request.CompletedDate.Date.ToString("MM/dd/yyyy")<br />
+            </h4>
+            <form asp-controller="Requests" asp-action="ViewMyRequestDetails" method="get">
+                <input type="submit" value="View Details" class="btn btn-primary" />
+                <input type="hidden" asp-for="@request.Id" name="requestId" class="form-control" />
+            </form>
+        }
+        else if (request.IsAccepted == 1 && request.IsCompleted == 0)
+        {
+            <h4>
+                Request #: @request.Id<br />
+                Status: <span style="color: green">Accepted</span>- pending completion<br />
+                Date Accepted: @request.AcceptedDate.Date.ToString("MM/dd/yyyy")<br />
+            </h4>
+            <form asp-controller="Requests" asp-action="ViewMyRequestDetails" method="get">
+                <input type="submit" value="View Details" class="btn btn-primary" />
+                <input type="hidden" asp-for="@request.Id" name="requestId" class="form-control" />
+            </form>
+        }
+        else
+        {
+            <h4>
+                Request #: @request.Id<br />
+                Status: <span style="color: blue">Pending</span><br />
+                Date Requested: @request.Date.Date.ToString("MM/dd/yyyy")<br />
+            </h4>
+
+            <form asp-controller="Requests" asp-action="ViewMyRequestDetails" method="get">
+                <input type="submit" value="View Details" class="btn btn-primary" />
+                <input type="hidden" asp-for="@request.Id" name="requestId" class="form-control" />
+            </form>
+        }
+    }
+</div>

@@ -1,0 +1,31 @@
+﻿@model User 
+@{
+    ViewData["Title"] = "AdminHomePage";
+}
+
+<div class="page-info">
+    <p>@TempData["EditSuccess"]</p>
+    @{
+        if (DateTime.Now.Hour < 12 && DateTime.Now.Hour >= 0)
+        {
+            <h2>Good Morning, @Model.FirstName!</h2>
+        }
+        else if (DateTime.Now.Hour >= 12 && DateTime.Now.Hour < 17)
+        {
+            <h2>Good Afternoon, @Model.FirstName!</h2>
+        }
+        else if (DateTime.Now.Hour <= 24 && DateTime.Now.Hour >= 17)
+        {
+            <h2>Good Evening, @Model.FirstName!</h2>
+        }
+    }
+    <div class="user-choices">
+        <a asp-controller="Requests" asp-action="SubmitRequest">Submit Request</a>
+        <a asp-controller="Requests" asp-action="ViewMyRequests">View My Requests</a>
+        <a asp-controller="Requests" asp-action="ViewRequests">View All Requests</a>
+        <a asp-controller="Requests" asp-action="ViewRequestsByCounty">View Requests by County</a>
+        <a asp-controller="Requests" asp-action="ViewIncompleteRequests">Requests to Complete</a>
+        <a asp-controller="User" asp-action="ChangeUserInfo">Edit Information</a>
+        <a asp-controller="User" asp-action="ChangeUserPassword">Update Password</a>
+    </div>
+</div>

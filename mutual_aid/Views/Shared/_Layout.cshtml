@@ -1,0 +1,86 @@
+﻿@using mutual_aid.Models;
+@using Microsoft.AspNetCore.Http;
+@using mutual_aid.DAL;
+
+@{
+    string loggedIn = Context.Session.GetString("Auth_User");
+
+    bool isAdmin = false;
+    bool isUser = false;
+    string connectionString = "Data Source=localhost;Initial Catalog=mutual_aid;Integrated Security=True";
+
+    if (!String.IsNullOrEmpty(loggedIn))
+    {
+        UserSqlDAO userDal = new UserSqlDAO(connectionString);
+        User user = userDal.GetUser(loggedIn);
+
+        if (user.Role == "admin")
+        {
+            isAdmin = true;
+        }
+        else if (user.Role == "user")
+        {
+            isUser = true;
+        }
+    }
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - mutual_aid</title>
+    @*<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />*@
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <header>
+        <img src="~/img/mutualAid.png" />
+        <nav>
+            @{
+                @if (isUser)
+                {
+                    <a asp-controller="Home" asp-action="Index">Home</a>
+                    <div class="dropdown">
+                        <a asp-controller="User" asp-action="#">Requests</a>
+                        <div class="dropdown-content">
+                            <a asp-controller="Requests" asp-action="SubmitRequest">Submit Request</a>
+                            <a asp-controller="Requests" asp-action="ViewMyRequests">View My Requests</a>
+                            <a asp-controller="Requests" asp-action="ViewRequests">View All Requests</a>
+                            <a asp-controller="Requests" asp-action="ViewRequestsByCounty">View Requests by County</a>
+                        </div>
+                    </div>
+                    <a asp-controller="User" asp-action="UserHomePage">My Account</a>
+                    <a asp-controller="Account" asp-action="Logoff">Logout</a>
+                }
+                else if (isAdmin)
+                {
+
+                }
+                else
+                {
+                    <a asp-controller="Home" asp-action="Index">Home</a>
+                    <a asp-controller="Account" asp-action="Login">Login</a>
+                    <a asp-controller="Account" asp-action="Register">Register</a>
+                }
+            }
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2020 - mutual_aid - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    @*<script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>*@
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
