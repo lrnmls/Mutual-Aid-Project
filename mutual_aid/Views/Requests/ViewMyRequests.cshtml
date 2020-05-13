@@ -6,7 +6,7 @@
 
 <div class="page-info">
     <h2>View My Requests</h2>
-    <p>@ViewBag.NoRequestsMessage</p>
+    <p>@TempData["NoRequests"]</p>
     @foreach (Request request in Model)
     {
         @if (request.IsAccepted == 1 && request.IsCompleted == 1)

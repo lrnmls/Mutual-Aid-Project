@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore.ValueGeneration.Internal;
 using mutual_aid.DAL;
 using mutual_aid.Models;
 using mutual_aid.Providers.Auth;
@@ -34,7 +35,13 @@ namespace mutual_aid.Controllers
             User user = authProvider.GetCurrentUser();
             userId = user.Id;
             requestDAO.AddRequest(request, userId);
-            return RedirectToAction("UserHomePage", "User");
+            if (ModelState.IsValid)
+            {
+                TempData["RequestSubmitted"] = "Your requested has been successfully submitted!";
+                return RedirectToAction("UserHomePage", "User");
+            }
+            TempData["RequestNotSubmitted"] = "Your request failed to submit, please try again.";
+            return View(request);
         }
 
         [HttpGet]
@@ -42,6 +49,10 @@ namespace mutual_aid.Controllers
         {
             User user = authProvider.GetCurrentUser();
             List<Request> requests = requestDAO.GetUserRequests(user.Id);
+            if (requests.Count == 0)
+            {
+                TempData["NoRequests"] = "There are no requests at this time!";
+            }
             return View(requests);
         }
 
@@ -57,6 +68,10 @@ namespace mutual_aid.Controllers
         {
             Request request = new Request();
             AddCounties(request);
+            if (AddCounties(request).Counties.Count == 0)
+            {
+                TempData["NoRequests"] = "There are no requests at this time!";
+            }
             return View(request);
         }
 
@@ -77,7 +92,7 @@ namespace mutual_aid.Controllers
             List<Request> requests = requestDAO.GetRequestsByUserId(userId);
             if (requests.Count == 0)
             {
-                ViewBag.NoRequestsMessage = "There are currently no requests!";
+                TempData["NoRequests"] = "There are no requests at this time!";
             }
             return View(requests);
         }
@@ -92,22 +107,12 @@ namespace mutual_aid.Controllers
             return View(requests);
         }
 
-
         [HttpGet]
         public IActionResult ViewMyRequestDetails(int requestId)
         {
             Request request = requestDAO.GetRequestsByRequestId(requestId);
             return View(request);
         }
-
-        //[HttpGet]
-        //public IActionResult AcceptedRequest(int requestId)
-        //{
-        //    User user = authProvider.GetCurrentUser();
-        //    Request request = new Request();
-        //    request.Id = requestId;
-        //    return View();
-        //}
 
         [HttpPost]
         public IActionResult AcceptedRequest(int requestId, int acceptedUserId, string acceptedUserFirstName, string acceptedUserLastName, string acceptedUserEmail, string acceptedUserPhoneNumber)
@@ -118,7 +123,10 @@ namespace mutual_aid.Controllers
             acceptedUserLastName = user.LastName;
             acceptedUserEmail = user.Email;
             acceptedUserPhoneNumber = user.PhoneNumber;
-            requestDAO.AddAcceptedRequest(requestId, acceptedUserId, acceptedUserFirstName, acceptedUserLastName, acceptedUserEmail, acceptedUserPhoneNumber);
+            if (ModelState.IsValid)
+            {
+                requestDAO.AddAcceptedRequest(requestId, acceptedUserId, acceptedUserFirstName, acceptedUserLastName, acceptedUserEmail, acceptedUserPhoneNumber);
+            }
             Request request = requestDAO.GetRequestsByRequestId(requestId);
             return View(request);
         }
@@ -131,7 +139,7 @@ namespace mutual_aid.Controllers
             List<Request> requests = requestDAO.IncompleteRequestsByAcceptedUser(userId);
             if (requests.Count == 0)
             {
-                ViewBag.NoRequestsMessage = "You have no incomplete requests.";
+                TempData["NoIncompleteRequests"] = "There are no incomplete requests at this time!";
             }
             return View(requests);
         }
@@ -145,8 +153,12 @@ namespace mutual_aid.Controllers
             acceptedUserLastName = user.LastName;
             acceptedUserEmail = user.Email;
             acceptedUserPhoneNumber = user.PhoneNumber;
-            requestDAO.AddCompletedRequest(requestId, acceptedUserId, acceptedUserFirstName, acceptedUserLastName, acceptedUserEmail, acceptedUserPhoneNumber);
-            return RedirectToAction("CompletedRequestConfirmation", "User");
+            if (ModelState.IsValid)
+            {
+                requestDAO.AddCompletedRequest(requestId, acceptedUserId, acceptedUserFirstName, acceptedUserLastName, acceptedUserEmail, acceptedUserPhoneNumber);
+                return RedirectToAction("CompletedRequestConfirmation", "Requests");
+            }
+            return View(user);
         }
 
         [HttpGet]

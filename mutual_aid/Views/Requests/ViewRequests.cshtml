@@ -5,24 +5,30 @@
 
 <div class="page-info">
     <h2>View All Requests</h2>
-    <p>
-        Here's a reference of where all counties in Ohio are:
-        <a href="https://en.wikipedia.org/wiki/List_of_counties_in_Ohio">Ohio County Locations</a>
-    </p>
-    <p>@ViewBag.NoRequestsMessage</p>
-
-    @foreach (Request request in Model)
+    @if (Model.Count == 0)
     {
-        <h4>
-            Requester Name: @request.LastName, @request.FirstName<br />
-            Request #: @request.Id<br />
-            Request Date: @request.Date.Date.ToString("MM/dd/yyyy")<br />
-            County: @request.County<br />
-        </h4>
+        <p>@TempData["NoRequests"]</p>
+    }
+    else
+    {
+        <p>
+            Here's a reference of where all counties in Ohio are:
+            <a href="https://en.wikipedia.org/wiki/List_of_counties_in_Ohio">Ohio County Locations</a>
+        </p>
 
-        <form asp-controller="Requests" asp-action="ViewRequestDetails" method="get">
-            <input type="submit" value="View Details" class="btn btn-primary" />
-            <input type="hidden" asp-for="@request.Id" name="requestId" class="form-control" />
-        </form>
+        @foreach (Request request in Model)
+        {
+            <h4>
+                Requester Name: @request.LastName, @request.FirstName<br />
+                Request #: @request.Id<br />
+                Request Date: @request.Date.Date.ToString("MM/dd/yyyy")<br />
+                County: @request.County<br />
+            </h4>
+
+            <form asp-controller="Requests" asp-action="ViewRequestDetails" method="get">
+                <input type="submit" value="View Details" class="btn btn-primary" />
+                <input type="hidden" asp-for="@request.Id" name="requestId" class="form-control" />
+            </form>
+        }
     }
 </div>

@@ -7,6 +7,7 @@
 <div class="page-info">
     <h2>Submit Request</h2>
     <hr />
+    <p>@TempData["RequestNotSubmitted"]</p>
     <form asp-action="SubmitRequest" asp-controller="Requests" method="post">
         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 

@@ -5,8 +5,11 @@
 }
 
 <div class="page-info">
+
     <h2>Incomplete Requests</h2>
-    @ViewBag.NoRequestsMessage
+
+    <p>@TempData["NoIncompleteRequests"]</p>
+
     @foreach (Request request in Model)
     {
         <h4>
@@ -20,4 +23,5 @@
             <input type="hidden" asp-for="@request.Id" name="requestId" class="form-control" />
         </form>
     }
+
 </div>

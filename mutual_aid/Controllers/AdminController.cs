@@ -79,13 +79,16 @@ namespace mutual_aid.Controllers
         {
             Request request = new Request();
             AddCounties(request);
+            if (AddCounties(request).Counties.Count == 0)
+            {
+                TempData["NoRequests"] = "There are currently no requests.";
+            }
             return View(request);
         }
 
         [HttpGet]
         public IActionResult ViewAllRequestsByCountyResult(Request request)
         {
-            //if(request.)
             request.SearchResults = requestDAO.GetAllRequestsByCounty(request.County);
             AddCounties(request);
             return View(request);

@@ -3,9 +3,14 @@
     ViewData["Title"] = "ViewRequestsByCounty";
 }
 
-    <div class="page-info">
-        <h2>View Requests By County</h2>
-
+<div class="page-info">
+    <h2>View Requests By County</h2>
+    @if (Model.Counties.Count == 0)
+    {
+        <p>@TempData["NoRequests"]</p>
+    }
+    else
+    {
         <p>
             Here's a reference of where all counties in Ohio are:
             <a href="https://en.wikipedia.org/wiki/List_of_counties_in_Ohio">Ohio County Locations</a>
@@ -20,4 +25,5 @@
 
             <button type="submit">Search</button>
         </form>
-    </div>
+    }
+</div>

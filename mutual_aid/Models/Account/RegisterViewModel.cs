@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc.Rendering;
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -34,6 +35,7 @@ namespace mutual_aid.Models.Account
 
         public string Role { get; set; }
 
+        [Display(Name = "Admin")]
         public bool isAdmin { get; set; }
 
         [Required]
@@ -41,7 +43,6 @@ namespace mutual_aid.Models.Account
 
         public static List<SelectListItem> OhioCounties = new List<SelectListItem>()
             {
-                new SelectListItem() { Text = "Select County" },
                 new SelectListItem() { Text = "Adams", Value = "Adams" },
                 new SelectListItem() { Text = "Adams", Value = "Adams" },
                 new SelectListItem() { Text = "Allen", Value = "Allen" },
