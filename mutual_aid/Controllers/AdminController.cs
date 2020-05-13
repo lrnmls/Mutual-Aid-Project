@@ -163,7 +163,6 @@ namespace mutual_aid.Controllers
             return View(user);
         }
 
-        //broken
         [HttpPost]
         public IActionResult EditUserInfoPassword(int userId, string Salt, string NewPassword, string Password)
         {
