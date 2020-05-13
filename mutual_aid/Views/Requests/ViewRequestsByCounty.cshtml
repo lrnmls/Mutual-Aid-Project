@@ -1,10 +1,11 @@
 ﻿@model Request
 @{
-    ViewData["Title"] = "ViewRequestsByCounty";
+    ViewData["Title"] = "View Requests By County";
 }
 
 <div class="page-info">
     <h2>View Requests By County</h2>
+    <hr />
     @if (Model.Counties.Count == 0)
     {
         <p>@TempData["NoRequests"]</p>

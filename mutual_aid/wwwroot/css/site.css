@@ -14,7 +14,13 @@ nav {
     overflow: hidden;
     margin-left: 15%;
     margin-right: 15%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
 }
+
+    nav .dropdown {
+        float: right;
+    }
 
     nav a {
         float: left;
@@ -64,6 +70,9 @@ nav {
     visibility: visible;
 }
 
+hr {
+}
+
 input[type=submit] {
     background-color: #333;
     padding-top: 1%;
@@ -78,10 +87,7 @@ input[type=submit] {
     margin-left: 15%;
     margin-right: 15%;
     background-color: white;
-    padding: 20px;
-    padding-bottom: 100px;
-    border-bottom-right-radius: 5px;
-    border-bottom-left-radius: 5px;
+    padding: 25px;
 }
 
     .page-info h2 {
@@ -92,6 +98,21 @@ input[type=submit] {
     .page-info h3 {
         color: #333;
         font-size: 20px;
+    }
+
+.filter-results {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+    .filter-results .filters {
+        width:30%;
+    }
+
+    .filter-results .results {
+        width: 70%;
     }
 
 table {
@@ -117,12 +138,12 @@ td {
     width: 75%;
 }
 
-/*.user-choices {
-    display: flex;
+.user-choices {
+    justify-content: space-around;
+    display: inline-flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
-}*/
+}
 
 .user-choices a {
     background-color: #333;
@@ -135,10 +156,7 @@ td {
     text-decoration: none;
     margin: 10px;
     border-radius: 5px;
-    display: inline-flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+    text-align: center;
 }
 
     .user-choices a:hover {
@@ -152,4 +170,10 @@ footer {
     bottom: 0;
     position: relative;
     margin-left: 15%;
+    margin-right: 15%;
+    background-color: white;
+    padding-bottom: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding-left: 25px;
 }

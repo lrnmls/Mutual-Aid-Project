@@ -41,7 +41,6 @@ namespace mutual_aid.Controllers
         {
             if (ModelState.IsValid)
             {
-                // Check that they provided correct credentials
                 bool validLogin = authProvider.SignIn(model.Email, model.Password);
                 User user = authProvider.GetCurrentUser();
                 if (validLogin)
@@ -63,10 +62,8 @@ namespace mutual_aid.Controllers
         [HttpGet]
         public IActionResult LogOff()
         {
-            // Clear user from session
             authProvider.LogOff();
-
-            // Redirect the user where you want them to go after logoff
+            TempData["LogOffSuccess"] = "You've successfully logged out.";
             return RedirectToAction("Index", "Home");
         }
 
@@ -83,14 +80,11 @@ namespace mutual_aid.Controllers
             {
                 if(userDAO.GetUser(model.Email) != null)
                 {
-                    ViewBag.AlreadyExistsMessage = "Email already exists in system, try logging in.";
+                    TempData["UserAlreadyExists"] = "Email already exists in system, try logging in.";
                 }
                 else
                 {
-                    // Redirect the user where you want them to go after registering
                     authProvider.Register(model.Email, model.Password, role: "user", model.FirstName, model.LastName, model.PhoneNumber, model.County);
-                    
-
                     return RedirectToAction("Login", "Account");
                 }
             }

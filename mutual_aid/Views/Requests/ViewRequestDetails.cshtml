@@ -1,14 +1,14 @@
 ﻿@using System.Text.RegularExpressions
 @model Request
 @{
-    ViewData["Title"] = "RequestDetails";
+    ViewData["Title"] = "View Request Details";
 }
 
 <div class="page-info">
     <h2>Request Information</h2>
     <form asp-controller="Requests" asp-action="AcceptedRequest" method="post">
         <h4>
-            Requester's Information<br />
+            <strong>Requester's Information</strong><br />
             <br />
             Name: @Model.LastName, @Model.FirstName<br />
             Phone Number:  @Regex.Replace(Model.PhoneNumber, @"(\d{3})(\d{3})(\d{4})", "($1) $2-$3")<br /><br />

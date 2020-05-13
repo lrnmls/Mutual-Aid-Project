@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration.UserSecrets;
 using mutual_aid.DAL;
 using mutual_aid.Models;
 using mutual_aid.Models.Account;
@@ -60,10 +61,6 @@ namespace mutual_aid.Controllers
         public IActionResult ViewAllRequests()
         {
             List<Request> requests = requestDAO.GetAllRequests();
-            if (requests.Count == 0)
-            {
-                TempData["NoRequests"] = "There are currently no requests.";
-            }
             return View(requests);
         }
 
@@ -77,12 +74,9 @@ namespace mutual_aid.Controllers
         [HttpGet]
         public IActionResult ViewAllRequestsByCounty()
         {
+            TempData["NoRequests"] = "There are currently no requests.";
             Request request = new Request();
             AddCounties(request);
-            if (AddCounties(request).Counties.Count == 0)
-            {
-                TempData["NoRequests"] = "There are currently no requests.";
-            }
             return View(request);
         }
 
@@ -92,6 +86,90 @@ namespace mutual_aid.Controllers
             request.SearchResults = requestDAO.GetAllRequestsByCounty(request.County);
             AddCounties(request);
             return View(request);
+        }
+
+        [HttpGet]
+        public IActionResult ViewAllRequestsByDate()
+        {
+            List<Request> requests = requestDAO.GetAllRequestsOrderByDate();
+            return View(requests);
+        }
+
+        [HttpGet]
+        public IActionResult ViewAllRequestsByLastName()
+        {
+            List<Request> requests = requestDAO.GetAllRequestsOrderByLastName();
+            return View(requests);
+        }
+
+        [HttpGet]
+        public IActionResult ViewAllPendingRequests()
+        {
+            List<Request> requests = requestDAO.GetAllPendingRequests();
+            return View(requests);
+        }
+
+        [HttpGet]
+        public IActionResult ViewAllAcceptedRequests()
+        {
+            List<Request> requests = requestDAO.GetAllAcceptedRequests();
+            return View(requests);
+        }
+
+        [HttpGet]
+        public IActionResult ViewAllCompletedRequests()
+        {
+            List<Request> requests = requestDAO.GetAllCompletedRequests();
+            return View(requests);
+        }
+
+        [HttpGet]
+        public IActionResult ListEditUsers(int currentUserId)
+        {
+            List<User> users = new List<User>();
+            currentUserId = authProvider.GetCurrentUser().Id;
+            users = userDAO.GetAllUsers(currentUserId);
+            return View(users);
+        }
+
+        [HttpGet]
+        public IActionResult EditUserInfo(string userEmail)
+        {
+            User user = userDAO.GetUser(userEmail);
+            return View(user);
+        }
+
+        [HttpPost]
+        public IActionResult EditUserInfo(User user, int userId)
+        {
+            userDAO.EditUserInfo(user, userId);
+            //TempData["ChangeUserInfoSuccess"] = "You've successfully changed their information!";
+            return RedirectToAction("AdminHomePage", "Admin");
+        }
+
+        [HttpGet]
+        public IActionResult ListEditUsersPassword(int currentUserId)
+        {
+            List<User> users = new List<User>();
+            currentUserId = authProvider.GetCurrentUser().Id;
+            users = userDAO.GetAllUsers(currentUserId);
+            return View(users);
+        }
+
+        [HttpGet]
+        public IActionResult EditUserInfoPassword(string userEmail)
+        {
+            User user = userDAO.GetUser(userEmail);
+            return View(user);
+        }
+
+        //broken
+        [HttpPost]
+        public IActionResult EditUserInfoPassword(int userId, string Salt, string NewPassword, string Password)
+        {
+            User user = userDAO.GetUserById(userId);
+            authProvider.ChangePasswordOfUser(user, Password, NewPassword);
+            return RedirectToAction("AdminHomePage", "Admin");
         }
 
         private Request AddCounties(Request model)

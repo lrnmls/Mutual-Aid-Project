@@ -1,12 +1,15 @@
 ﻿@using System.Text.RegularExpressions
 @model List<Request>
 @{
-    ViewData["Title"] = "ViewMyRequests";
+    ViewData["Title"] = "View My Requests";
 }
 
 <div class="page-info">
+
     <h2>View My Requests</h2>
+    <hr />
     <p>@TempData["NoRequests"]</p>
+
     @foreach (Request request in Model)
     {
         @if (request.IsAccepted == 1 && request.IsCompleted == 1)

@@ -1,34 +1,34 @@
 ﻿@model List<Request>
 @{
-    ViewData["Title"] = "ViewRequests";
+    ViewData["Title"] = "View All Requests";
 }
 
-<div class="page-info">
-    <h2>View All Requests</h2>
-    @if (Model.Count == 0)
-    {
-        <p>@TempData["NoRequests"]</p>
-    }
-    else
-    {
-        <p>
-            Here's a reference of where all counties in Ohio are:
-            <a href="https://en.wikipedia.org/wiki/List_of_counties_in_Ohio">Ohio County Locations</a>
-        </p>
-
-        @foreach (Request request in Model)
+    <div class="page-info">
+        <h2>View All Requests</h2>
+        @if (Model.Count == 0)
         {
-            <h4>
-                Requester Name: @request.LastName, @request.FirstName<br />
-                Request #: @request.Id<br />
-                Request Date: @request.Date.Date.ToString("MM/dd/yyyy")<br />
-                County: @request.County<br />
-            </h4>
-
-            <form asp-controller="Requests" asp-action="ViewRequestDetails" method="get">
-                <input type="submit" value="View Details" class="btn btn-primary" />
-                <input type="hidden" asp-for="@request.Id" name="requestId" class="form-control" />
-            </form>
+            <p>@TempData["NoRequests"]</p>
         }
-    }
-</div>
+        else
+        {
+            <p>
+                Here's a reference of where all counties in Ohio are:
+                <a href="https://en.wikipedia.org/wiki/List_of_counties_in_Ohio">Ohio County Locations</a>
+            </p>
+            <hr />
+            @foreach (Request request in Model)
+            {
+                <h4>
+                    Name: @request.LastName, @request.FirstName<br />
+                    Request #: @request.Id<br />
+                    Request Date: @request.Date.Date.ToString("MM/dd/yyyy")<br />
+                    County: @request.County<br />
+                </h4>
+
+                <form asp-controller="Requests" asp-action="ViewRequestDetails" method="get">
+                    <input type="submit" value="View Details" class="btn btn-primary" />
+                    <input type="hidden" asp-for="@request.Id" name="requestId" class="form-control" />
+                </form>
+            }
+        }
+    </div>

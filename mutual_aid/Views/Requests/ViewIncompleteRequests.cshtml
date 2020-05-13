@@ -1,20 +1,19 @@
 ﻿@using System.Text.RegularExpressions
 @model List<Request>
 @{
-    ViewData["Title"] = "IncompleteRequestsByAcceptedUser";
+    ViewData["Title"] = "View Accepted Requests";
 }
 
 <div class="page-info">
-
     <h2>Incomplete Requests</h2>
-
+    <hr />
     <p>@TempData["NoIncompleteRequests"]</p>
 
     @foreach (Request request in Model)
     {
         <h4>
-            Request #: @request.Id<br />
             Name: @request.FirstName @request.LastName<br />
+            Request #: @request.Id<br />
             Date: @request.Date.Date.ToString("MM/dd/yyyy")<br />
         </h4>
 

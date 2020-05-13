@@ -1,6 +1,6 @@
 ﻿@model mutual_aid.Models.Account.RegisterViewModel
 @{
-    ViewData["Title"] = "View";
+    ViewData["Title"] = "Register";
 }
 
 <div class="page-info">
@@ -9,7 +9,7 @@
     <form asp-action="Register" asp-controller="Account" method="post">
         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
         <p>@ViewBag.SuccessMessage</p>
-        <p>@ViewBag.AlreadyExistsMessage</p>
+        <p>@TempData["UserAlreadyExists"]</p>
         <p>
             <label asp-for="Email" class="control-label">Email</label>
         </p>
@@ -56,11 +56,9 @@
         <p>
             <select asp-for="County" asp-items="mutual_aid.Models.Account.RegisterViewModel.OhioCounties" class="dropbtn"></select>
         </p>
-        @*<div class="checkbox">
-            <label>
-                <input asp-for="isAdmin" /> @Html.DisplayNameFor(model => model.isAdmin)
-            </label>
-        </div>*@
+
+        <p>Already have an account? Sign in <a asp-controller="Account" asp-action="Login">here</a>!</p>
+
         <input type="submit" value="Register" class="btn btn-primary" />
     </form>
 </div>

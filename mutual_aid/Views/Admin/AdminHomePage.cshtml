@@ -5,6 +5,7 @@
 
 <div class="page-info">
     <p>@TempData["CreateNewUser"]</p>
+    <p>@TempData["ChangeUserInfoSuccess"]</p>
     @{
         if (DateTime.Now.Hour < 12 && DateTime.Now.Hour >= 0)
         {
@@ -19,12 +20,13 @@
             <h2>Good Evening, @Model.FirstName!</h2>
         }
     }
+    <hr />
     <div class="user-choices">
         <a asp-controller="Admin" asp-action="ViewAllRequests">View All Requests</a>
         <a asp-controller="Admin" asp-action="ViewAllRequestsByCounty">View Requests by County</a>
-        @*<a asp-controller="Admin" asp-action="#">View All Incomplete Requests</a>*@
         <a asp-controller="Admin" asp-action="CreateNewUser">Create New User</a>
-        <a asp-controller="User" asp-action="#">Edit User Information</a>
+        <a asp-controller="Admin" asp-action="ListEditUsers">Edit User Information</a>
+        <a asp-controller="Admin" asp-action="ListEditUsersPassword">Change User Password</a>
         <a asp-controller="User" asp-action="ChangeUserInfo">Update My Information</a>
         <a asp-controller="User" asp-action="ChangeUserPassword">Update My Password</a>
     </div>

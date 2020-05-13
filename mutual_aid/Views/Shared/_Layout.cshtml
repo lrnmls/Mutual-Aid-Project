@@ -30,8 +30,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - mutual_aid</title>
-    @*<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />*@
+    <title>Mutual Aid</title>
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
 <body>
@@ -42,8 +41,10 @@
                 @if (isUser)
                 {
                     <a asp-controller="Home" asp-action="Index">Home</a>
+                    <a asp-controller="User" asp-action="UserHomePage">My Account</a>
+                    <a asp-controller="Account" asp-action="Logoff">Logout</a>
                     <div class="dropdown">
-                        <a asp-controller="User" asp-action="#">Requests</a>
+                        <a asp-controller="User" asp-action="#">Request Quick Menu</a>
                         <div class="dropdown-content">
                             <a asp-controller="Requests" asp-action="SubmitRequest">Submit Request</a>
                             <a asp-controller="Requests" asp-action="ViewMyRequests">View My Requests</a>
@@ -51,14 +52,19 @@
                             <a asp-controller="Requests" asp-action="ViewRequestsByCounty">View Requests by County</a>
                         </div>
                     </div>
-                    <a asp-controller="User" asp-action="UserHomePage">My Account</a>
-                    <a asp-controller="Account" asp-action="Logoff">Logout</a>
                 }
                 else if (isAdmin)
                 {
                     <a asp-controller="Home" asp-action="Index">Home</a>
                     <a asp-controller="Admin" asp-action="AdminHomePage">My Account</a>
                     <a asp-controller="Account" asp-action="Logoff">Logout</a>
+                    <div class="dropdown">
+                        <a asp-controller="User" asp-action="#">Request Quick Menu</a>
+                        <div class="dropdown-content">
+                            <a asp-controller="Admin" asp-action="ViewAllRequests">View All Request</a>
+                            <a asp-controller="Admin" asp-action="ViewAllRequestsByCounty">View All Requests by County</a>
+                        </div>
+                    </div>
                 }
                 else
                 {
@@ -77,12 +83,9 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2020 - mutual_aid - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            &copy; 2020 - Mutual Aid 
         </div>
     </footer>
-    @*<script src="~/lib/jquery/dist/jquery.min.js"></script>
-        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="~/js/site.js" asp-append-version="true"></script>*@
     @RenderSection("Scripts", required: false)
 </body>
 </html>

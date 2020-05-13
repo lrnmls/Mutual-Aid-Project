@@ -6,6 +6,8 @@
 <div class="page-info">
     <p>@TempData["EditSuccess"]</p>
     <p>@TempData["RequestSubmitted"]</p>
+    <p>@TempData["ChangePasswordSuccess"]</p>
+    <p>@TempData["ChangeUserInfoSuccess"]</p>
     @{
         if (DateTime.Now.Hour < 12 && DateTime.Now.Hour >= 0)
         {
@@ -20,6 +22,7 @@
             <h2>Good Evening, @Model.FirstName!</h2>
         }
     }
+    <hr />
     <div class="user-choices">
         <a asp-controller="Requests" asp-action="SubmitRequest">Submit Request</a>
         <a asp-controller="Requests" asp-action="ViewMyRequests">View My Requests</a>

@@ -68,10 +68,6 @@ namespace mutual_aid.Controllers
         {
             Request request = new Request();
             AddCounties(request);
-            if (AddCounties(request).Counties.Count == 0)
-            {
-                TempData["NoRequests"] = "There are no requests at this time!";
-            }
             return View(request);
         }
 

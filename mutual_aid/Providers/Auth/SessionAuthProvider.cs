@@ -65,6 +65,27 @@ namespace mutual_aid.Providers.Auth
             return false;
         }
 
+        public bool ChangePasswordOfUser(User user, string existingPassword, string newPassword)
+        {
+            var hashProvider = new HashProvider();
+
+            // Confirm existing password match
+            if (user != null && hashProvider.VerifyPasswordMatch(user.Password, existingPassword, user.Salt))
+            {
+                // Hash new password
+                var newHash = hashProvider.HashPassword(newPassword);
+                user.Password = newHash.Password;
+                user.Salt = newHash.Salt;
+
+                // Save into the db
+                userDAO.UpdatePassword(user);
+
+                return true;
+            }
+
+            return false;
+        }
+
         public User GetCurrentUser()
         {
             var email = Session.GetString(SessionKey);

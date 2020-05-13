@@ -1,0 +1,18 @@
+﻿@model List<User>
+@{
+    ViewData["Title"] = "Update User Information";
+}
+
+<div class="page-info">
+    <h2>Update User Information</h2>
+    <p>Please click on a user to edit their information</p>
+    <hr />
+    @foreach (User user in Model)
+    {
+        <form asp-controller="Admin" asp-action="EditUserInfo" method="get">
+            <input type="submit" value="@user.LastName, @user.FirstName" class="btn btn-primary" /><br />
+            <input type="hidden" asp-for="@user.Email" name="userEmail" class="form-control" />
+        </form>
+    }
+</div>
+

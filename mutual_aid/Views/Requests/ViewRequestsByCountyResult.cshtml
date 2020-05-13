@@ -1,12 +1,11 @@
 ﻿@model Request
 @{
-    ViewData["Title"] = "ViewRequestsByCountyResult";
+    ViewData["Title"] = "View Requests By County";
 }
 
 <div class="page-info">
-
     <h2>View Requests By County</h2>
-
+    <hr />
     <p>
         Here's a reference of where all counties in Ohio are:
         <a href="https://en.wikipedia.org/wiki/List_of_counties_in_Ohio">Ohio County Locations</a>
@@ -26,7 +25,7 @@
     @foreach (Request request in Model.SearchResults)
     {
         <h4>
-            Requester Name: @request.LastName, @request.FirstName<br />
+            Name: @request.LastName, @request.FirstName<br />
             Request #: @request.Id<br />
             Request Date: @request.Date.Date.ToString("MM/dd/yyyy")<br />
             County: @request.County<br />

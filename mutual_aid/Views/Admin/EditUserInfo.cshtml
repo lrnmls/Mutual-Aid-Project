@@ -1,0 +1,38 @@
+﻿@model User
+@{
+    ViewData["Title"] = "Update User Information";
+}
+
+<div class="page-info">
+    <h2>Update User Information</h2>
+    <form asp-controller="Admin" asp-action="EditUserInfo" method="post">
+        <input type="hidden" asp-for="@Model.Id" name="userId" class="form-control" />
+        <p><label asp-for="Email">Update Email</label></p>
+        <p>
+            <input type="text" asp-for="Email" placeholder="@Model.Email" />
+            <span asp-validation-for="Email"></span>
+        </p>
+        <p><label asp-for="FirstName">Update First Name</label></p>
+        <p>
+            <input type="text" asp-for="FirstName" placeholder="@Model.FirstName" />
+            <span asp-validation-for="FirstName"></span>
+        </p>
+        <p><label asp-for="LastName">Update Last Name</label></p>
+        <p>
+            <input type="text" asp-for="LastName" placeholder="@Model.LastName" />
+            <span asp-validation-for="LastName"></span>
+        </p>
+        <p><label asp-for="PhoneNumber">Update Phone Number</label></p>
+        <p>
+            <input type="text" asp-for="PhoneNumber" placeholder="@Model.PhoneNumber" />
+            <span asp-validation-for="PhoneNumber"></span>
+        </p>
+        <p><label asp-for="County">Update County</label></p>
+        <p>
+            <select asp-for="County" asp-items="mutual_aid.Models.Account.RegisterViewModel.OhioCounties" class="dropbtn"></select>
+        </p>
+        <p><input type="submit" value="Update Info" class="btn btn-primary" /></p>
+    </form>
+</div>
+
+

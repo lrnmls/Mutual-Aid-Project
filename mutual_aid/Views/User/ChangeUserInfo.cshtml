@@ -1,9 +1,10 @@
 ﻿@model User
 @{
-    ViewData["Title"] = "ChangeUserInfo";
+    ViewData["Title"] = "Change User Info";
 }
 <div class="page-info">
-    <h1>EditUserInfo</h1>
+    <h2>Change Your Information</h2>
+    <hr />
     <form asp-controller="User" asp-action="ChangeUserInfo" method="post">
         <p><label asp-for="Email">Update Email</label></p>
         <p>

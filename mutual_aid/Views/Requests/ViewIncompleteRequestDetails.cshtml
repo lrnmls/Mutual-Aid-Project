@@ -1,17 +1,19 @@
 ﻿@using System.Text.RegularExpressions
 @model Request
 @{
-    ViewData["Title"] = "ViewIncompleteRequestDetails";
+    ViewData["Title"] = "View Request Details";
 }
 
 <div class="page-info">
     @ViewBag.NoRequestsMessage
 
     <h2>Request Information</h2>
+    <hr />
     <form asp-controller="Requests" asp-action="ViewIncompleteRequests" method="post">
+
         <h4>
-            Request #: @Model.Id<br />
             Name: @Model.FirstName @Model.LastName<br />
+            Request #: @Model.Id<br />
             Phone Number: @Regex.Replace(@Model.PhoneNumber, @"(\d{3})(\d{3})(\d{4})", "($1) $2-$3")<br />
             Email: @Model.Email <br />
             County: @Model.County<br />
@@ -84,7 +86,9 @@
                 <td>@Model.Allergens</td>
             </tr>
         </table>
+
         <input type="submit" value="Confirm Completion" class="btn btn-primary" />
         <input type="hidden" asp-for="@Model.Id" name="requestId" class="form-control" />
+
     </form>
 </div>
