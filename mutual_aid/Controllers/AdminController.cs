@@ -124,7 +124,7 @@ namespace mutual_aid.Controllers
         }
 
         [HttpGet]
-        public IActionResult ListEditUsers(int currentUserId)
+        public IActionResult ListUsersToEdit(int currentUserId)
         {
             List<User> users = new List<User>();
             currentUserId = authProvider.GetCurrentUser().Id;
@@ -139,16 +139,25 @@ namespace mutual_aid.Controllers
             return View(user);
         }
 
+        //throws sql exception if input form is blank, figure out how to print out as error on page
         [HttpPost]
         public IActionResult EditUserInfo(User user, int userId)
         {
             userDAO.EditUserInfo(user, userId);
-            //TempData["ChangeUserInfoSuccess"] = "You've successfully changed their information!";
-            return RedirectToAction("AdminHomePage", "Admin");
+            //if (ModelState.IsValid)
+            //{
+                TempData["ChangeUserInfoSuccess"] = "You've successfully changed their information!";
+                return RedirectToAction("AdminHomePage", "Admin");
+            //}
+            //else
+            //{
+            //    TempData["UserInfoNotEdited"] = "Please fill all fields before submitting.";
+            //    return View(user);
+            //}
         }
 
         [HttpGet]
-        public IActionResult ListEditUsersPassword(int currentUserId)
+        public IActionResult ListUsersToEditPassword(int currentUserId)
         {
             List<User> users = new List<User>();
             currentUserId = authProvider.GetCurrentUser().Id;
@@ -157,17 +166,17 @@ namespace mutual_aid.Controllers
         }
 
         [HttpGet]
-        public IActionResult EditUserInfoPassword(string userEmail)
+        public IActionResult EditUserPassword(string userEmail)
         {
             User user = userDAO.GetUser(userEmail);
             return View(user);
         }
 
         [HttpPost]
-        public IActionResult EditUserInfoPassword(int userId, string Salt, string NewPassword, string Password)
+        public IActionResult EditUserPassword(int userId, string Salt, string NewPassword, string Password)
         {
             User user = userDAO.GetUserById(userId);
-            authProvider.ChangePasswordOfUser(user, Password, NewPassword);
+            authProvider.ChangeUserPassword(user, Password, NewPassword);
             return RedirectToAction("AdminHomePage", "Admin");
         }
 

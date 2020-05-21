@@ -78,7 +78,7 @@ namespace mutual_aid.Controllers
         {
             if (ModelState.IsValid)
             {
-                if(userDAO.GetUser(model.Email) != null)
+                if (userDAO.GetUser(model.Email) != null)
                 {
                     TempData["UserAlreadyExists"] = "Email already exists in system, try logging in.";
                 }

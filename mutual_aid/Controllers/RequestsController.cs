@@ -13,13 +13,11 @@ namespace mutual_aid.Controllers
     public class RequestsController : Controller
     {
         private readonly RequestSqlDAO requestDAO;
-        private readonly UserSqlDAO userDAO;
         private readonly IAuthProvider authProvider;
 
-        public RequestsController(RequestSqlDAO requestDAO, UserSqlDAO userDAO, IAuthProvider authProvider)
+        public RequestsController(RequestSqlDAO requestDAO, IAuthProvider authProvider)
         {
             this.requestDAO = requestDAO;
-            this.userDAO = userDAO;
             this.authProvider = authProvider;
         }
 
@@ -68,6 +66,10 @@ namespace mutual_aid.Controllers
         {
             Request request = new Request();
             AddCounties(request);
+            if(request.Counties.Count == 0)
+            {
+                TempData["NoRequests"] = "There are no requests at this time!";
+            }
             return View(request);
         }
 
@@ -98,9 +100,15 @@ namespace mutual_aid.Controllers
         {
             User user = authProvider.GetCurrentUser();
             userId = user.Id;
-            requestDAO.DeleteRequest(requestId);
-            List<Request> requests = requestDAO.GetRequestsByUserId(userId);
-            return View(requests);
+            if (ModelState.IsValid)
+            {
+                TempData["DeleteSuccess"] = "Your request was successfully deleted!";
+                requestDAO.DeleteRequest(requestId);
+                return RedirectToAction("ViewMyRequests", "Requests");
+            }
+            //requestDAO.DeleteRequest(requestId);
+            //List<Request> requests = requestDAO.GetRequestsByUserId(userId);
+            return View();
         }
 
         [HttpGet]

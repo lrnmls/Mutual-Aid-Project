@@ -8,22 +8,26 @@
     <form asp-controller="User" asp-action="ChangeUserInfo" method="post">
         <p><label asp-for="Email">Update Email</label></p>
         <p>
-            <input type="text" asp-for="Email" placeholder="@Model.Email" />
+            <input type="text" asp-for="Email" value="@Model.Email" id="input" />
+            <button type="button" onclick="ClearFields();">Change</button>
             <span asp-validation-for="Email"></span>
         </p>
         <p><label asp-for="FirstName">Update First Name</label></p>
         <p>
-            <input type="text" asp-for="FirstName" placeholder="@Model.FirstName" />
+            <input type="text" asp-for="FirstName" value="@Model.FirstName" id="input2" />
+            <button type="button" onclick="ClearFields2();">Change</button>
             <span asp-validation-for="FirstName"></span>
         </p>
         <p><label asp-for="LastName">Update Last Name</label></p>
         <p>
-            <input type="text" asp-for="LastName" placeholder="@Model.LastName"/>
+            <input type="text" asp-for="LastName" value="@Model.LastName" id="input3" />
+            <button type="button" onclick="ClearFields3();">Change</button>
             <span asp-validation-for="LastName"></span>
         </p>
         <p><label asp-for="PhoneNumber">Update Phone Number</label></p>
         <p>
-            <input type="text" asp-for="PhoneNumber" placeholder="@Model.PhoneNumber" />
+            <input type="text" asp-for="PhoneNumber" value="@Model.PhoneNumber" id="input4" />
+            <button type="button" onclick="ClearFields4();">Change</button>
             <span asp-validation-for="PhoneNumber"></span>
         </p>
         <p><label asp-for="County">Update County</label></p>
@@ -33,3 +37,18 @@
         <p><input type="submit" value="Update Info" class="btn btn-primary" /></p>
     </form>
 </div>
+
+<script>
+    function ClearFields() {
+        document.getElementById("input").value = "";
+    }
+    function ClearFields2() {
+        document.getElementById("input2").value = "";
+    }
+    function ClearFields3() {
+        document.getElementById("input3").value = "";
+    }
+    function ClearFields4() {
+        document.getElementById("input4").value = "";
+    }
+</script>

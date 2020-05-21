@@ -9,27 +9,28 @@
     <hr />
     @if (Model.IsAccepted == 1 && Model.IsCompleted == 1)
     {
-        <h4>
-            <strong>Request Completed By</strong><br />
-            <br />
-            Name: @Model.AcceptedUserLastName, @Model.AcceptedUserFirstName<br />
-            Phone Number: @Regex.Replace(Model.AcceptedUserPhoneNumber, @"(\d{3})(\d{3})(\d{4})", "($1) $2-$3")<br />
-            Email: @Model.AcceptedUserEmail<br />
-        </h4>
+        <div class="request-info">
+            <div>
+                <h4>
+                    Request Information<br />
+                    <br />
+                    Request: #@Model.Id<br />
+                    Request Date: @Model.Date.ToString("MM/dd/yyyy hh:mm tt")<br />
+                    Status: Completed @Model.CompletedDate.ToString("MM/dd/yyyy hh:mm tt")
+                </h4>
+            </div>
+            <div>
+                <h4>
+                    Request Completed By<br />
+                    <br />
+                    Name: @Model.AcceptedUserLastName, @Model.AcceptedUserFirstName<br />
+                    Phone Number: @Regex.Replace(Model.AcceptedUserPhoneNumber, @"(\d{3})(\d{3})(\d{4})", "($1) $2-$3")<br />
+                    Email: @Model.AcceptedUserEmail<br />
+                </h4>
+            </div>
+        </div>
 
         <table class="request">
-            <tr>
-                <th>Request #</th>
-                <td>@Model.Id</td>
-            </tr>
-            <tr>
-                <th>Request Date</th>
-                <td>@Model.Date.Date.ToString("MM/dd/yyyy")</td>
-            </tr>
-            <tr>
-                <th>Status:</th>
-                <td>Completed @Model.CompletedDate.Date.ToString("MM/dd/yyyy")</td>
-            </tr>
             <tr>
                 <th>Toilet Paper</th>
                 <td>@Model.ToiletPaper</td>
@@ -98,27 +99,28 @@
     }
     else if (Model.IsAccepted == 1 && Model.IsCompleted == 0)
     {
-        <h4>
-            <strong>Request Accepted By</strong><br />
-            <br />
-            Name: @Model.AcceptedUserLastName, @Model.AcceptedUserFirstName<br />
-            Phone Number: @Regex.Replace(Model.AcceptedUserPhoneNumber, @"(\d{3})(\d{3})(\d{4})", "($1) $2-$3")<br />
-            Email: @Model.AcceptedUserEmail<br />
-        </h4>
+        <div class="request-info">
+            <div>
+                <h4>
+                    Request Information<br />
+                    <br />
+                    Request: #@Model.Id<br />
+                    Request Date: @Model.Date.ToString("MM/dd/yyyy hh:mm tt")<br />
+                    Status: Accepted @Model.AcceptedDate.ToString("MM/dd/yyyy hh:mm tt")
+                </h4>
+            </div>
+            <div>
+                <h4>
+                    Request Accepted By<br />
+                    <br />
+                    Name: @Model.AcceptedUserLastName, @Model.AcceptedUserFirstName<br />
+                    Phone Number: @Regex.Replace(Model.AcceptedUserPhoneNumber, @"(\d{3})(\d{3})(\d{4})", "($1) $2-$3")<br />
+                    Email: @Model.AcceptedUserEmail<br />
+                </h4>
+            </div>
+        </div>
 
         <table class="request">
-            <tr>
-                <th>Request #</th>
-                <td>@Model.Id</td>
-            </tr>
-            <tr>
-                <th>Request Date</th>
-                <td>@Model.Date.Date.ToString("MM/dd/yyyy")</td>
-            </tr>
-            <tr>
-                <th>Status:</th>
-                <td>Accepted @Model.AcceptedDate.Date.ToString("MM/dd/yyyy")</td>
-            </tr>
             <tr>
                 <th>Toilet Paper</th>
                 <td>@Model.ToiletPaper</td>
@@ -188,20 +190,14 @@
     else
     {
         <form asp-controller="Requests" asp-action="ViewMyRequests" method="post">
-
+            <h4>
+                Request Information<br />
+                <br />
+                Request: #@Model.Id<br />
+                Request Date: @Model.Date.ToString("MM/dd/yyyy hh:mm tt")<br />
+                Status: Pending
+            </h4>
             <table class="request">
-                <tr>
-                    <th>Request #</th>
-                    <td>@Model.Id</td>
-                </tr>
-                <tr>
-                    <th>Request Date</th>
-                    <td>@Model.Date.Date.ToString("MM/dd/yyyy")</td>
-                </tr>
-                <tr>
-                    <th>Status</th>
-                    <td>Pending</td>
-                </tr>
                 <tr>
                     <th>Toilet Paper</th>
                     <td>@Model.ToiletPaper</td>

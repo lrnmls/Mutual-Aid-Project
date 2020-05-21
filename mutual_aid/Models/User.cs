@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc.Rendering;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -53,6 +54,7 @@ namespace mutual_aid.Models
         [Required]
         public string County { get; set; }
 
+        [Required]
         public static List<SelectListItem> OhioCounties = new List<SelectListItem>()
         {
             new SelectListItem() {Text = "Adams", Value= "Adams"},

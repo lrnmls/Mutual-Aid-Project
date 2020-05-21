@@ -9,30 +9,31 @@
     <h2>View My Requests</h2>
     <hr />
     <p>@TempData["NoRequests"]</p>
+    <p>@TempData["DeleteSuccess"]</p>
 
     @foreach (Request request in Model)
     {
         @if (request.IsAccepted == 1 && request.IsCompleted == 1)
         {
             <h4>
-                Request #: @request.Id<br />
-                Request Date: @request.Date.Date.ToString("MM/dd/yyyy")<br />
-                Status: Completed <br />
+                Request: #@request.Id<br />
+                Request Date: @request.Date.ToString("MM/dd/yyyy hh:mm tt")<br />
+                Status: Completed @request.CompletedDate.ToString("MM/dd/yyyy hh:mm tt")<br />
             </h4>
         }
         else if (request.IsAccepted == 1 && request.IsCompleted == 0)
         {
             <h4>
-                Request #: @request.Id<br />
-                Request Date: @request.Date.Date.ToString("MM/dd/yyyy")<br />
-                Status: Accepted- pending completion <br />
+                Request: #@request.Id<br />
+                Request Date: @request.Date.ToString("MM/dd/yyyy hh:mm tt")<br />
+                Status: Accepted @request.AcceptedDate.ToString("MM/dd/yyyy hh:mm tt") <br />
             </h4>
         }
         else
         {
             <h4>
-                Request #: @request.Id<br />
-                Request Date: @request.Date.Date.ToString("MM/dd/yyyy")<br />
+                Request: #@request.Id<br />
+                Request Date: @request.Date.ToString("MM/dd/yyyy hh:mm tt")<br />
                 Status: Pending <br />
             </h4>
         }

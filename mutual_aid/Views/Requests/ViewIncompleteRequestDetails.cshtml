@@ -10,16 +10,27 @@
     <h2>Request Information</h2>
     <hr />
     <form asp-controller="Requests" asp-action="ViewIncompleteRequests" method="post">
-
-        <h4>
-            Name: @Model.FirstName @Model.LastName<br />
-            Request #: @Model.Id<br />
-            Phone Number: @Regex.Replace(@Model.PhoneNumber, @"(\d{3})(\d{3})(\d{4})", "($1) $2-$3")<br />
-            Email: @Model.Email <br />
-            County: @Model.County<br />
-            Date: @Model.Date.Date.ToString("MM/dd/yyyy")<br />
-        </h4>
-
+        <div class="request-info">
+            <div>
+                <h4>
+                    Request Information<br />
+                    <br />
+                    Request: #@Model.Id<br />
+                    Date: @Model.Date.ToString("MM/dd/yyyy hh:mm tt")<br />
+                    Accepted Date: @Model.AcceptedDate.ToString("MM/dd/yyyy hh:mm tt")<br />
+                </h4>
+            </div>
+            <div>
+                <h4>
+                    User Information<br />
+                    <br />
+                    Name: @Model.LastName, @Model.FirstName<br />
+                    Phone Number: @Regex.Replace(@Model.PhoneNumber, @"(\d{3})(\d{3})(\d{4})", "($1) $2-$3")<br />
+                    Email: @Model.Email <br />
+                    County: @Model.County<br />
+                </h4>
+            </div>
+        </div>
         <table class="request">
             <tr>
                 <th>Toilet Paper</th>

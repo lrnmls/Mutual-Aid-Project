@@ -100,6 +100,6 @@ ALTER TABLE completed_requests
 ADD FOREIGN KEY (completed_user_id) REFERENCES users(id)
 
 INSERT INTO users(email, password, salt , role, first_name, last_name, phone_number, county)  
-VALUES ('admin@gmail.com','cM/Jkg15L++z8H/0LpRqjhRTOPE=', 'IAaPcpjhjhk=', 'admin', 'Lauren', 'Miles', '9373291424', 'Franklin');
+VALUES ('admin@gmail.com','zzX62Wo1iwlzjArXTjtedAtGZjo=', 'JLL4F1608gM=', 'admin', 'Lauren', 'Miles', '9373291424', 'Franklin');
 
 COMMIT TRANSACTION

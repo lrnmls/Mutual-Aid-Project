@@ -12,8 +12,8 @@ namespace mutual_aid.Providers.Auth
         User GetCurrentUser();
         bool SignIn(string username, string password);
         void LogOff();
-        bool ChangePassword(string existingPassword, string newPassword);
-        bool ChangePasswordOfUser(User user, string existingPassword, string newPassword);
+        bool ChangeOwnPassword(string existingPassword, string newPassword);
+        bool ChangeUserPassword(User user, string existingPassword, string newPassword);
         void Register(string email, string password, string role, string firstName, string lastName, string phoneNumber, string county);
         bool UserHasRole(string[] roles);
     }

@@ -24,12 +24,21 @@
     }
     <hr />
     <div class="user-choices">
-        <a asp-controller="Requests" asp-action="SubmitRequest">Submit Request</a>
-        <a asp-controller="Requests" asp-action="ViewMyRequests">View My Requests</a>
-        <a asp-controller="Requests" asp-action="ViewRequests">View All Requests</a>
-        <a asp-controller="Requests" asp-action="ViewRequestsByCounty">View Requests by County</a>
-        <a asp-controller="Requests" asp-action="ViewIncompleteRequests">Requests to Complete</a>
-        <a asp-controller="User" asp-action="ChangeUserInfo">Edit Information</a>
-        <a asp-controller="User" asp-action="ChangeUserPassword">Update Password</a>
+        <div>
+            <h3>My Requests</h3>
+            <a asp-controller="Requests" asp-action="SubmitRequest">Submit Request</a>
+            <a asp-controller="Requests" asp-action="ViewMyRequests">View My Requests</a>
+            <a asp-controller="Requests" asp-action="ViewIncompleteRequests">View Incompleted Requests</a>
+        </div>
+        <div>
+            <h3>All Requests</h3>
+            <a asp-controller="Requests" asp-action="ViewRequests">View All Requests</a>
+            <a asp-controller="Requests" asp-action="ViewRequestsByCounty">View Requests by County</a>
+        </div>
+        <div>
+            <h3>My Information</h3>
+            <a asp-controller="User" asp-action="ChangeUserInfo">Update My Information</a>
+            <a asp-controller="User" asp-action="ChangeUserPassword">Update My Password</a>
+        </div>
     </div>
 </div>

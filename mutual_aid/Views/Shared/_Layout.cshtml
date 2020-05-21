@@ -36,45 +36,50 @@
 <body>
     <header>
         <img src="~/img/mutualAid.png" />
-        <nav>
-            @{
-                @if (isUser)
-                {
-                    <a asp-controller="Home" asp-action="Index">Home</a>
-                    <a asp-controller="User" asp-action="UserHomePage">My Account</a>
-                    <a asp-controller="Account" asp-action="Logoff">Logout</a>
-                    <div class="dropdown">
-                        <a asp-controller="User" asp-action="#">Request Quick Menu</a>
-                        <div class="dropdown-content">
-                            <a asp-controller="Requests" asp-action="SubmitRequest">Submit Request</a>
-                            <a asp-controller="Requests" asp-action="ViewMyRequests">View My Requests</a>
-                            <a asp-controller="Requests" asp-action="ViewRequests">View All Requests</a>
-                            <a asp-controller="Requests" asp-action="ViewRequestsByCounty">View Requests by County</a>
-                        </div>
-                    </div>
-                }
-                else if (isAdmin)
-                {
-                    <a asp-controller="Home" asp-action="Index">Home</a>
-                    <a asp-controller="Admin" asp-action="AdminHomePage">My Account</a>
-                    <a asp-controller="Account" asp-action="Logoff">Logout</a>
-                    <div class="dropdown">
-                        <a asp-controller="User" asp-action="#">Request Quick Menu</a>
-                        <div class="dropdown-content">
-                            <a asp-controller="Admin" asp-action="ViewAllRequests">View All Request</a>
-                            <a asp-controller="Admin" asp-action="ViewAllRequestsByCounty">View All Requests by County</a>
-                        </div>
-                    </div>
-                }
-                else
-                {
-                    <a asp-controller="Home" asp-action="Index">Home</a>
-                    <a asp-controller="Account" asp-action="Login">Login</a>
-                    <a asp-controller="Account" asp-action="Register">Register</a>
-                }
-            }
-        </nav>
     </header>
+
+    @{
+        @if (isUser)
+        {
+            <nav>
+                <a asp-controller="Home" asp-action="Index">Home</a>
+                <a asp-controller="User" asp-action="UserHomePage">My Account</a>
+                <a asp-controller="Account" asp-action="Logoff">Logout</a>
+                <div class="dropdown">
+                    <a asp-controller="User" asp-action="#">Request Quick Menu</a>
+                    <div class="dropdown-content">
+                        <a asp-controller="Requests" asp-action="SubmitRequest">Submit Request</a>
+                        <a asp-controller="Requests" asp-action="ViewMyRequests">View My Requests</a>
+                        <a asp-controller="Requests" asp-action="ViewRequests">View All Requests</a>
+                        <a asp-controller="Requests" asp-action="ViewRequestsByCounty">View Requests by County</a>
+                    </div>
+                </div>
+            </nav>
+        }
+        else if (isAdmin)
+        {
+            <nav>
+                <a asp-controller="Home" asp-action="Index">Home</a>
+                <a asp-controller="Admin" asp-action="AdminHomePage">My Account</a>
+                <a asp-controller="Account" asp-action="Logoff">Logout</a>
+                <div class="dropdown">
+                    <a asp-controller="User" asp-action="#">Request Quick Menu</a>
+                    <div class="dropdown-content">
+                        <a asp-controller="Admin" asp-action="ViewAllRequests">View All Request</a>
+                        <a asp-controller="Admin" asp-action="ViewAllRequestsByCounty">View All Requests by County</a>
+                    </div>
+                </div>
+            </nav>
+        }
+        else
+        {
+            <nav>
+                <a asp-controller="Home" asp-action="Index">Home</a>
+                <a asp-controller="Account" asp-action="Login">Login</a>
+                <a asp-controller="Account" asp-action="Register">Register</a>
+            </nav>
+        }
+    }
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
@@ -83,7 +88,7 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2020 - Mutual Aid 
+            &copy; 2020 - Mutual Aid
         </div>
     </footer>
     @RenderSection("Scripts", required: false)

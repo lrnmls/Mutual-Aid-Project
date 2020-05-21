@@ -7,24 +7,28 @@
 <div class="page-info">
     <h2>Request Information</h2>
     <form asp-controller="Requests" asp-action="AcceptedRequest" method="post">
-        <h4>
-            <strong>Requester's Information</strong><br />
-            <br />
-            Name: @Model.LastName, @Model.FirstName<br />
-            Phone Number:  @Regex.Replace(Model.PhoneNumber, @"(\d{3})(\d{3})(\d{4})", "($1) $2-$3")<br /><br />
-            Email: @Model.Email<br />
-            County: @Model.County<br />
-        </h4>
+        <div class="request-info">
+            <div>
+                <h4>
+                    Request Information<br />
+                    <br />
+                    Request #: @Model.Id<br />
+                    Date: @Model.Date.ToString("MM/dd/yyyy hh:mm tt")<br />
+                </h4>
+            </div>
+            <div>
+                <h4>
+                    User Information<br />
+                    <br />
+                    Name: @Model.LastName, @Model.FirstName<br />
+                    Phone Number:  @Regex.Replace(Model.PhoneNumber, @"(\d{3})(\d{3})(\d{4})", "($1) $2-$3")<br /><br />
+                    Email: @Model.Email<br />
+                    County: @Model.County<br />
+                </h4>
+            </div>
+        </div>
 
         <table class="request">
-            <tr>
-                <th>Request #</th>
-                <td>@Model.Id</td>
-            </tr>
-            <tr>
-                <th>Request Date</th>
-                <td>@Model.Date.Date.ToString("MM/dd/yyyy")</td>
-            </tr>
             <tr>
                 <th>Toilet Paper</th>
                 <td>@Model.ToiletPaper</td>

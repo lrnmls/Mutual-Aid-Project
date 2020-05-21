@@ -16,13 +16,11 @@ namespace mutual_aid.Controllers
 {
     public class UserController : Controller
     {
-        private readonly RequestSqlDAO requestDAO;
         private readonly UserSqlDAO userDAO;
         private readonly IAuthProvider authProvider;
 
-        public UserController(RequestSqlDAO requestDAO, UserSqlDAO userDAO, IAuthProvider authProvider)
+        public UserController(UserSqlDAO userDAO, IAuthProvider authProvider)
         {
-            this.requestDAO = requestDAO;
             this.userDAO = userDAO;
             this.authProvider = authProvider;
         }
@@ -45,7 +43,7 @@ namespace mutual_aid.Controllers
         public IActionResult ChangeUserPassword(User user, string Salt, string NewPassword, string Password)
         {
             user = authProvider.GetCurrentUser();
-            authProvider.ChangePassword(Password, NewPassword);
+            authProvider.ChangeOwnPassword(Password, NewPassword);
             TempData["ChangePasswordSuccess"] = "You've successfully changed your password!";
             return RedirectToAction("UserHomePage", "User", user);
         }

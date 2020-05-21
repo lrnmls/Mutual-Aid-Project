@@ -12,9 +12,9 @@
     @foreach (Request request in Model)
     {
         <h4>
-            Name: @request.FirstName @request.LastName<br />
-            Request #: @request.Id<br />
-            Date: @request.Date.Date.ToString("MM/dd/yyyy")<br />
+            Name: @request.LastName, @request.FirstName<br />
+            Request: #@request.Id<br />
+            Date: @request.Date.ToString("MM/dd/yyyy hh:mm tt")<br />
         </h4>
 
         <form asp-controller="Requests" asp-action="ViewIncompleteRequestDetails" method="get">

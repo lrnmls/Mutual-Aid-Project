@@ -43,20 +43,17 @@ namespace mutual_aid.Providers.Auth
             Session.Clear();
         }
 
-        public bool ChangePassword(string existingPassword, string newPassword)
+        public bool ChangeOwnPassword(string existingPassword, string newPassword)
         {
             var hashProvider = new HashProvider();
             var user = GetCurrentUser();
 
-            // Confirm existing password match
             if (user != null && hashProvider.VerifyPasswordMatch(user.Password, existingPassword, user.Salt))
             {
-                // Hash new password
                 var newHash = hashProvider.HashPassword(newPassword);
                 user.Password = newHash.Password;
                 user.Salt = newHash.Salt;
 
-                // Save into the db
                 userDAO.UpdatePassword(user);
 
                 return true;
@@ -65,19 +62,16 @@ namespace mutual_aid.Providers.Auth
             return false;
         }
 
-        public bool ChangePasswordOfUser(User user, string existingPassword, string newPassword)
+        public bool ChangeUserPassword(User user, string existingPassword, string newPassword)
         {
             var hashProvider = new HashProvider();
 
-            // Confirm existing password match
             if (user != null && hashProvider.VerifyPasswordMatch(user.Password, existingPassword, user.Salt))
             {
-                // Hash new password
                 var newHash = hashProvider.HashPassword(newPassword);
                 user.Password = newHash.Password;
                 user.Salt = newHash.Salt;
 
-                // Save into the db
                 userDAO.UpdatePassword(user);
 
                 return true;

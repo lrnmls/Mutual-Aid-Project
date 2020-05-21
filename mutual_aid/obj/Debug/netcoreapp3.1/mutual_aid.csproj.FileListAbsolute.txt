@@ -506,6 +506,6 @@ C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\
 C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ViewAllCompletedRequests.cshtml.g.cs
 C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ViewAllPendingRequests.cshtml.g.cs
 C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Admin\EditUserInfo.cshtml.g.cs
-C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ListEditUsers.cshtml.g.cs
-C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Admin\EditUserInfoPassword.cshtml.g.cs
-C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ListEditUsersPassword.cshtml.g.cs
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Admin\EditUserPassword.cshtml.g.cs
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ListUsersToEdit.cshtml.g.cs
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ListUsersToEditPassword.cshtml.g.cs

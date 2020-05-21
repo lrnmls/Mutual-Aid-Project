@@ -6,6 +6,7 @@
 <div class="page-info">
     <h2>Register</h2>
     <hr />
+    <p>Already have an account? Sign in <a asp-controller="Account" asp-action="Login">here</a>!</p>
     <form asp-action="Register" asp-controller="Account" method="post">
         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
         <p>@ViewBag.SuccessMessage</p>
@@ -14,50 +15,48 @@
             <label asp-for="Email" class="control-label">Email</label>
         </p>
         <p>
-            <input asp-for="Email" class="form-control" />
+            <input asp-for="Email" type="text" class="form-control" />
             <span asp-validation-for="Email" class="text-danger"></span>
         </p>
         <p>
             <label asp-for="Password" class="control-label">Password</label>
         </p>
         <p>
-            <input asp-for="Password" class="form-control" />
+            <input asp-for="Password" type="password" class="form-control" />
             <span asp-validation-for="Password" class="text-danger"></span>
         </p>
         <p>
             <label asp-for="ConfirmPassword" class="control-label">Confirm Password</label>
         </p>
         <p>
-            <input asp-for="ConfirmPassword" class="form-control" />
+            <input asp-for="ConfirmPassword" type="password" class="form-control" />
             <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
         </p>
         <p>
             <label asp-for="FirstName" class="control-label">First Name</label>
         </p>
         <p>
-            <input asp-for="FirstName" class="form-control" />
+            <input asp-for="FirstName" type="text" class="form-control" />
             <span asp-validation-for="FirstName" class="text-danger"></span>
         </p>
         <p>
             <label asp-for="LastName" class="control-label">Last Name</label>
         </p>
         <p>
-            <input asp-for="LastName" class="form-control" />
+            <input asp-for="LastName" type="text" class="form-control" />
             <span asp-validation-for="LastName" class="text-danger"></span>
         </p>
         <p>
             <label asp-for="PhoneNumber" class="control-label">Phone Number</label>
         </p>
         <p>
-            <input asp-for="PhoneNumber" class="form-control" />
+            <input asp-for="PhoneNumber" type="text" class="form-control" />
             <span asp-validation-for="PhoneNumber" class="text-danger"></span>
         </p>
         <p><label asp-for="County">County</label></p>
         <p>
             <select asp-for="County" asp-items="mutual_aid.Models.Account.RegisterViewModel.OhioCounties" class="dropbtn"></select>
         </p>
-
-        <p>Already have an account? Sign in <a asp-controller="Account" asp-action="Login">here</a>!</p>
 
         <input type="submit" value="Register" class="btn btn-primary" />
     </form>
