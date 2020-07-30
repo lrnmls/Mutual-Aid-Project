@@ -1,0 +1,9 @@
+C:\Users\Lauren Miles\OneDrive\Projects\EFCorePractice\Framework\bin\Debug\netstandard2.0\EFCorePractice.Framework.deps.json
+C:\Users\Lauren Miles\OneDrive\Projects\EFCorePractice\Framework\bin\Debug\netstandard2.0\EFCorePractice.Framework.dll
+C:\Users\Lauren Miles\OneDrive\Projects\EFCorePractice\Framework\obj\Debug\netstandard2.0\EFCorePractice.Framework.csprojAssemblyReference.cache
+C:\Users\Lauren Miles\OneDrive\Projects\EFCorePractice\Framework\obj\Debug\netstandard2.0\EFCorePractice.Framework.AssemblyInfoInputs.cache
+C:\Users\Lauren Miles\OneDrive\Projects\EFCorePractice\Framework\obj\Debug\netstandard2.0\EFCorePractice.Framework.AssemblyInfo.cs
+C:\Users\Lauren Miles\OneDrive\Projects\EFCorePractice\Framework\bin\Debug\netstandard2.0\EFCorePractice.Framework.pdb
+C:\Users\Lauren Miles\OneDrive\Projects\EFCorePractice\Framework\obj\Debug\netstandard2.0\EFCorePractice.Framework.csproj.CoreCompileInputs.cache
+C:\Users\Lauren Miles\OneDrive\Projects\EFCorePractice\Framework\obj\Debug\netstandard2.0\EFCorePractice.Framework.dll
+C:\Users\Lauren Miles\OneDrive\Projects\EFCorePractice\Framework\obj\Debug\netstandard2.0\EFCorePractice.Framework.pdb

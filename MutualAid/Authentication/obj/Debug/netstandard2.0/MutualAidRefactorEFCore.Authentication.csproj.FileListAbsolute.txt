@@ -1,0 +1,14 @@
+C:\Users\Lauren Miles\OneDrive\Projects\MutualAid\Authentication\obj\Debug\netstandard2.0\MutualAidRefactorEFCore.Authentication.csprojAssemblyReference.cache
+C:\Users\Lauren Miles\OneDrive\Projects\MutualAid\Authentication\obj\Debug\netstandard2.0\MutualAidRefactorEFCore.Authentication.AssemblyInfoInputs.cache
+C:\Users\Lauren Miles\OneDrive\Projects\MutualAid\Authentication\obj\Debug\netstandard2.0\MutualAidRefactorEFCore.Authentication.AssemblyInfo.cs
+C:\Users\Lauren Miles\OneDrive\Projects\MutualAid\Authentication\obj\Debug\netstandard2.0\MutualAidRefactorEFCore.Authentication.csproj.CoreCompileInputs.cache
+C:\Users\Lauren Miles\OneDrive\Projects\MutualAid\Authentication\bin\Debug\netstandard2.0\MutualAidRefactorEFCore.Authentication.deps.json
+C:\Users\Lauren Miles\OneDrive\Projects\MutualAid\Authentication\bin\Debug\netstandard2.0\MutualAidRefactorEFCore.Authentication.dll
+C:\Users\Lauren Miles\OneDrive\Projects\MutualAid\Authentication\bin\Debug\netstandard2.0\MutualAidRefactorEFCore.Authentication.pdb
+C:\Users\Lauren Miles\OneDrive\Projects\MutualAid\Authentication\bin\Debug\netstandard2.0\MutualAidRefactorEFCore.Data.dll
+C:\Users\Lauren Miles\OneDrive\Projects\MutualAid\Authentication\bin\Debug\netstandard2.0\MutualAidRefactorEFCore.Framework.dll
+C:\Users\Lauren Miles\OneDrive\Projects\MutualAid\Authentication\bin\Debug\netstandard2.0\MutualAidRefactorEFCore.Data.pdb
+C:\Users\Lauren Miles\OneDrive\Projects\MutualAid\Authentication\bin\Debug\netstandard2.0\MutualAidRefactorEFCore.Framework.pdb
+C:\Users\Lauren Miles\OneDrive\Projects\MutualAid\Authentication\obj\Debug\netstandard2.0\MutualAidRefactorEFCore.Authentication.csproj.CopyComplete
+C:\Users\Lauren Miles\OneDrive\Projects\MutualAid\Authentication\obj\Debug\netstandard2.0\MutualAidRefactorEFCore.Authentication.dll
+C:\Users\Lauren Miles\OneDrive\Projects\MutualAid\Authentication\obj\Debug\netstandard2.0\MutualAidRefactorEFCore.Authentication.pdb

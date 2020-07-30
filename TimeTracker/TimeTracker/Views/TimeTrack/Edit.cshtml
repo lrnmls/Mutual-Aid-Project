@@ -1,0 +1,60 @@
+﻿@page
+@model TimeTracker.Views.TimeTrack.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Time</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Time.ID" />
+            <div class="form-group">
+                <label asp-for="Time.TimeCodeID" class="control-label"></label>
+                <input asp-for="Time.TimeCodeID" class="form-control" />
+                <span asp-validation-for="Time.TimeCodeID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Time.TimeWorked" class="control-label"></label>
+                <input asp-for="Time.TimeWorked" class="form-control" />
+                <span asp-validation-for="Time.TimeWorked" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Time.StartTimeHour" class="control-label"></label>
+                <input asp-for="Time.StartTimeHour" class="form-control" />
+                <span asp-validation-for="Time.StartTimeHour" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Time.StartTimeMinute" class="control-label"></label>
+                <input asp-for="Time.StartTimeMinute" class="form-control" />
+                <span asp-validation-for="Time.StartTimeMinute" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Time.EndTimeHour" class="control-label"></label>
+                <input asp-for="Time.EndTimeHour" class="form-control" />
+                <span asp-validation-for="Time.EndTimeHour" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Time.EndTimeMinute" class="control-label"></label>
+                <input asp-for="Time.EndTimeMinute" class="form-control" />
+                <span asp-validation-for="Time.EndTimeMinute" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

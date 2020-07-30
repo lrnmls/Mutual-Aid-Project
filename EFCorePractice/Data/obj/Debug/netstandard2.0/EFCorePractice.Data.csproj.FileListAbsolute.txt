@@ -1,0 +1,12 @@
+C:\Users\Lauren Miles\OneDrive\Projects\EFCorePractice\Data\bin\Debug\netstandard2.0\EFCorePractice.Data.deps.json
+C:\Users\Lauren Miles\OneDrive\Projects\EFCorePractice\Data\bin\Debug\netstandard2.0\EFCorePractice.Data.dll
+C:\Users\Lauren Miles\OneDrive\Projects\EFCorePractice\Data\bin\Debug\netstandard2.0\EFCorePractice.Data.pdb
+C:\Users\Lauren Miles\OneDrive\Projects\EFCorePractice\Data\obj\Debug\netstandard2.0\EFCorePractice.Data.csprojAssemblyReference.cache
+C:\Users\Lauren Miles\OneDrive\Projects\EFCorePractice\Data\obj\Debug\netstandard2.0\EFCorePractice.Data.AssemblyInfoInputs.cache
+C:\Users\Lauren Miles\OneDrive\Projects\EFCorePractice\Data\obj\Debug\netstandard2.0\EFCorePractice.Data.AssemblyInfo.cs
+C:\Users\Lauren Miles\OneDrive\Projects\EFCorePractice\Data\obj\Debug\netstandard2.0\EFCorePractice.Data.dll
+C:\Users\Lauren Miles\OneDrive\Projects\EFCorePractice\Data\obj\Debug\netstandard2.0\EFCorePractice.Data.pdb
+C:\Users\Lauren Miles\OneDrive\Projects\EFCorePractice\Data\bin\Debug\netstandard2.0\EFCorePractice.Framework.dll
+C:\Users\Lauren Miles\OneDrive\Projects\EFCorePractice\Data\bin\Debug\netstandard2.0\EFCorePractice.Framework.pdb
+C:\Users\Lauren Miles\OneDrive\Projects\EFCorePractice\Data\obj\Debug\netstandard2.0\EFCorePractice.Data.csproj.CopyComplete
+C:\Users\Lauren Miles\OneDrive\Projects\EFCorePractice\Data\obj\Debug\netstandard2.0\EFCorePractice.Data.csproj.CoreCompileInputs.cache

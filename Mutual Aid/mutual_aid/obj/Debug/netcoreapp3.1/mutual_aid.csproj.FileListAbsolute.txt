@@ -1,0 +1,700 @@
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\mutual_aid.StaticWebAssets.xml
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\mutual_aid.exe
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\mutual_aid.deps.json
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\mutual_aid.runtimeconfig.json
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\mutual_aid.runtimeconfig.dev.json
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\mutual_aid.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\mutual_aid.pdb
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\mutual_aid.Views.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\mutual_aid.Views.pdb
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.csprojAssemblyReference.cache
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.RazorAssemblyInfo.cache
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.RazorAssemblyInfo.cs
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.AssemblyInfoInputs.cache
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.AssemblyInfo.cs
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.TagHelpers.input.cache
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.TagHelpers.output.cache
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.RazorCoreGenerate.cache
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.RazorTargetAssemblyInfo.cache
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.RazorTargetAssemblyInfo.cs
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.Views.pdb
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.csproj.CopyComplete
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\staticwebassets\mutual_aid.StaticWebAssets.Manifest.cache
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\staticwebassets\mutual_aid.StaticWebAssets.xml
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.pdb
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.genruntimeconfig.cache
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.csproj.CoreCompileInputs.cache
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\User\UserHomePage.cshtml.g.cs
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\User\RequestItems.cshtml.g.cs
+C:\Users\lrnml\source\repos\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\User\ViewRequests.cshtml.g.cs
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.csprojAssemblyReference.cache
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.csproj.CoreCompileInputs.cache
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.RazorAssemblyInfo.cache
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.RazorAssemblyInfo.cs
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.AssemblyInfoInputs.cache
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.AssemblyInfo.cs
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.pdb
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.TagHelpers.input.cache
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.TagHelpers.output.cache
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.RazorCoreGenerate.cache
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\User\RequestItems.cshtml.g.cs
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\User\UserHomePage.cshtml.g.cs
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\User\ViewRequests.cshtml.g.cs
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.RazorTargetAssemblyInfo.cache
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.RazorTargetAssemblyInfo.cs
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\mutual_aid.StaticWebAssets.xml
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\mutual_aid.exe
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\mutual_aid.deps.json
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\mutual_aid.runtimeconfig.json
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\mutual_aid.runtimeconfig.dev.json
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\mutual_aid.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\mutual_aid.pdb
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\mutual_aid.Views.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\mutual_aid.Views.pdb
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.Views.pdb
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.csproj.CopyComplete
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\staticwebassets\mutual_aid.StaticWebAssets.Manifest.cache
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\staticwebassets\mutual_aid.StaticWebAssets.xml
+C:\Users\lrnml\Documents\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.genruntimeconfig.cache
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\mutual_aid.StaticWebAssets.xml
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\mutual_aid.exe
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\mutual_aid.deps.json
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\mutual_aid.runtimeconfig.json
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\mutual_aid.runtimeconfig.dev.json
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\mutual_aid.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\mutual_aid.pdb
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\mutual_aid.Views.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\mutual_aid.Views.pdb
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.csprojAssemblyReference.cache
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.csproj.CoreCompileInputs.cache
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.RazorAssemblyInfo.cache
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.RazorAssemblyInfo.cs
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.AssemblyInfoInputs.cache
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.AssemblyInfo.cs
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.TagHelpers.input.cache
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.TagHelpers.output.cache
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.RazorCoreGenerate.cache
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\User\UserHomePage.cshtml.g.cs
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.RazorTargetAssemblyInfo.cache
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.RazorTargetAssemblyInfo.cs
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.Views.pdb
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.csproj.CopyComplete
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\staticwebassets\mutual_aid.StaticWebAssets.Manifest.cache
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\staticwebassets\mutual_aid.StaticWebAssets.xml
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.dll
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.pdb
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.genruntimeconfig.cache
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Confirmations\ConfirmationAccepter.cshtml.g.cs
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Confirmations\ConfirmationRequester.cshtml.g.cs
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Requests.cshtml.g.cs
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\User\ChangeUserPassword.cshtml.g.cs
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Requests\AcceptedRequest.cshtml.g.cs
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Requests\CompletedRequestConfirmation.cshtml.g.cs
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Requests\SubmitRequest.cshtml.g.cs
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Requests\ViewIncompleteRequestDetails.cshtml.g.cs
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Requests\ViewIncompleteRequests.cshtml.g.cs
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Requests\ViewMyRequestDetails.cshtml.g.cs
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Requests\ViewMyRequests.cshtml.g.cs
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Requests\ViewRequestDetails.cshtml.g.cs
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Requests\ViewRequests.cshtml.g.cs
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Requests\ViewRequestsByCounty.cshtml.g.cs
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Requests\ViewRequestsByCountyResult.cshtml.g.cs
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\User\ChangeUserInfo.cshtml.g.cs
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Admin\AdminHomePage.cshtml.g.cs
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Admin\CreateNewUser.cshtml.g.cs
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ViewAllRequestDetails.cshtml.g.cs
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ViewAllRequests.cshtml.g.cs
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ViewAllRequestsByCounty.cshtml.g.cs
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ViewAllRequestsByCountyResult.cshtml.g.cs
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ViewAllRequestsByDate.cshtml.g.cs
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ViewAllRequestsByLastName.cshtml.g.cs
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ViewAllAcceptedRequests.cshtml.g.cs
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ViewAllCompletedRequests.cshtml.g.cs
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ViewAllPendingRequests.cshtml.g.cs
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Admin\EditUserInfo.cshtml.g.cs
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Admin\EditUserPassword.cshtml.g.cs
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ListUsersToEdit.cshtml.g.cs
+C:\Users\lrnml\Documents\Projects\mutual_aid\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ListUsersToEditPassword.cshtml.g.cs
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\mutual_aid.StaticWebAssets.xml
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\mutual_aid.exe
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\mutual_aid.deps.json
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\mutual_aid.runtimeconfig.json
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\mutual_aid.runtimeconfig.dev.json
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\mutual_aid.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\mutual_aid.pdb
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\mutual_aid.Views.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\mutual_aid.Views.pdb
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.csprojAssemblyReference.cache
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.AssemblyInfoInputs.cache
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.AssemblyInfo.cs
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.csproj.CoreCompileInputs.cache
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.RazorAssemblyInfo.cache
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.RazorAssemblyInfo.cs
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.TagHelpers.input.cache
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.TagHelpers.output.cache
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.RazorCoreGenerate.cache
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Admin\AdminHomePage.cshtml.g.cs
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Admin\CreateNewUser.cshtml.g.cs
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Admin\EditUserInfo.cshtml.g.cs
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Admin\EditUserPassword.cshtml.g.cs
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ListUsersToEdit.cshtml.g.cs
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ListUsersToEditPassword.cshtml.g.cs
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ViewAllAcceptedRequests.cshtml.g.cs
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ViewAllCompletedRequests.cshtml.g.cs
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ViewAllPendingRequests.cshtml.g.cs
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ViewAllRequestDetails.cshtml.g.cs
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ViewAllRequests.cshtml.g.cs
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ViewAllRequestsByCounty.cshtml.g.cs
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ViewAllRequestsByCountyResult.cshtml.g.cs
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ViewAllRequestsByDate.cshtml.g.cs
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ViewAllRequestsByLastName.cshtml.g.cs
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Confirmations\ConfirmationAccepter.cshtml.g.cs
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Confirmations\ConfirmationRequester.cshtml.g.cs
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Requests.cshtml.g.cs
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Requests\AcceptedRequest.cshtml.g.cs
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Requests\CompletedRequestConfirmation.cshtml.g.cs
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Requests\SubmitRequest.cshtml.g.cs
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Requests\ViewIncompleteRequestDetails.cshtml.g.cs
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Requests\ViewIncompleteRequests.cshtml.g.cs
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Requests\ViewMyRequestDetails.cshtml.g.cs
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Requests\ViewMyRequests.cshtml.g.cs
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Requests\ViewRequestDetails.cshtml.g.cs
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Requests\ViewRequests.cshtml.g.cs
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Requests\ViewRequestsByCounty.cshtml.g.cs
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Requests\ViewRequestsByCountyResult.cshtml.g.cs
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\User\ChangeUserInfo.cshtml.g.cs
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\User\ChangeUserPassword.cshtml.g.cs
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\User\UserHomePage.cshtml.g.cs
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.RazorTargetAssemblyInfo.cache
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.RazorTargetAssemblyInfo.cs
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.Views.pdb
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.csproj.CopyComplete
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\obj\Debug\netcoreapp3.1\staticwebassets\mutual_aid.StaticWebAssets.Manifest.cache
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\obj\Debug\netcoreapp3.1\staticwebassets\mutual_aid.StaticWebAssets.xml
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.dll
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.pdb
+C:\Users\Lauren Miles\OneDrive\Projects\mutual_aid\obj\Debug\netcoreapp3.1\mutual_aid.genruntimeconfig.cache

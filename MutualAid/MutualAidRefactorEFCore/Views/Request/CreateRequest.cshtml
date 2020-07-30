@@ -1,0 +1,105 @@
+﻿@model MutualAidRefactorEFCore.UI.Models.RequestViewModel
+
+@{
+    ViewData["Title"] = "CreateRequest";
+}
+
+<h1>CreateRequest</h1>
+
+<h4>RequestViewModel</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="CreateRequest">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="ToiletPaper" class="control-label"></label>
+                <input asp-for="ToiletPaper" class="form-control" />
+                <span asp-validation-for="ToiletPaper" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PaperTowels" class="control-label"></label>
+                <input asp-for="PaperTowels" class="form-control" />
+                <span asp-validation-for="PaperTowels" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HandSoap" class="control-label"></label>
+                <input asp-for="HandSoap" class="form-control" />
+                <span asp-validation-for="HandSoap" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Shampoo" class="control-label"></label>
+                <input asp-for="Shampoo" class="form-control" />
+                <span asp-validation-for="Shampoo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Conditioner" class="control-label"></label>
+                <input asp-for="Conditioner" class="form-control" />
+                <span asp-validation-for="Conditioner" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Toothpaste" class="control-label"></label>
+                <input asp-for="Toothpaste" class="form-control" />
+                <span asp-validation-for="Toothpaste" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Disinfectant" class="control-label"></label>
+                <input asp-for="Disinfectant" class="form-control" />
+                <span asp-validation-for="Disinfectant" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Dairy" class="control-label"></label>
+                <input asp-for="Dairy" class="form-control" />
+                <span asp-validation-for="Dairy" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Bread" class="control-label"></label>
+                <input asp-for="Bread" class="form-control" />
+                <span asp-validation-for="Bread" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Produce" class="control-label"></label>
+                <input asp-for="Produce" class="form-control" />
+                <span asp-validation-for="Produce" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CannedFood" class="control-label"></label>
+                <input asp-for="CannedFood" class="form-control" />
+                <span asp-validation-for="CannedFood" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Meat" class="control-label"></label>
+                <input asp-for="Meat" class="form-control" />
+                <span asp-validation-for="Meat" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Seafood" class="control-label"></label>
+                <input asp-for="Seafood" class="form-control" />
+                <span asp-validation-for="Seafood" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Cereal" class="control-label"></label>
+                <input asp-for="Cereal" class="form-control" />
+                <span asp-validation-for="Cereal" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Pantry" class="control-label"></label>
+                <input asp-for="Pantry" class="form-control" />
+                <span asp-validation-for="Pantry" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Allergens" class="control-label"></label>
+                <input asp-for="Allergens" class="form-control" />
+                <span asp-validation-for="Allergens" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

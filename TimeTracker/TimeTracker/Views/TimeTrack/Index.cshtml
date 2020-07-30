@@ -1,0 +1,66 @@
+﻿@page
+@model TimeTracker.Views.TimeTrack.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Time[0].TimeCodeID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Time[0].TimeWorked)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Time[0].StartTimeHour)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Time[0].StartTimeMinute)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Time[0].EndTimeHour)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Time[0].EndTimeMinute)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Time) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.TimeCodeID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TimeWorked)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StartTimeHour)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StartTimeMinute)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EndTimeHour)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EndTimeMinute)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.ID">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.ID">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.ID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,14 @@
+C:\Users\Lauren Miles\OneDrive\Projects\EFCorePractice\Application\obj\Debug\netstandard2.0\EFCorePractice.Application.csprojAssemblyReference.cache
+C:\Users\Lauren Miles\OneDrive\Projects\EFCorePractice\Application\obj\Debug\netstandard2.0\EFCorePractice.Application.AssemblyInfoInputs.cache
+C:\Users\Lauren Miles\OneDrive\Projects\EFCorePractice\Application\obj\Debug\netstandard2.0\EFCorePractice.Application.AssemblyInfo.cs
+C:\Users\Lauren Miles\OneDrive\Projects\EFCorePractice\Application\obj\Debug\netstandard2.0\EFCorePractice.Application.csproj.CoreCompileInputs.cache
+C:\Users\Lauren Miles\OneDrive\Projects\EFCorePractice\Application\bin\Debug\netstandard2.0\EFCorePractice.Application.deps.json
+C:\Users\Lauren Miles\OneDrive\Projects\EFCorePractice\Application\bin\Debug\netstandard2.0\EFCorePractice.Application.dll
+C:\Users\Lauren Miles\OneDrive\Projects\EFCorePractice\Application\bin\Debug\netstandard2.0\EFCorePractice.Data.dll
+C:\Users\Lauren Miles\OneDrive\Projects\EFCorePractice\Application\bin\Debug\netstandard2.0\EFCorePractice.Framework.dll
+C:\Users\Lauren Miles\OneDrive\Projects\EFCorePractice\Application\bin\Debug\netstandard2.0\EFCorePractice.Data.pdb
+C:\Users\Lauren Miles\OneDrive\Projects\EFCorePractice\Application\bin\Debug\netstandard2.0\EFCorePractice.Framework.pdb
+C:\Users\Lauren Miles\OneDrive\Projects\EFCorePractice\Application\obj\Debug\netstandard2.0\EFCorePractice.Application.csproj.CopyComplete
+C:\Users\Lauren Miles\OneDrive\Projects\EFCorePractice\Application\bin\Debug\netstandard2.0\EFCorePractice.Application.pdb
+C:\Users\Lauren Miles\OneDrive\Projects\EFCorePractice\Application\obj\Debug\netstandard2.0\EFCorePractice.Application.dll
+C:\Users\Lauren Miles\OneDrive\Projects\EFCorePractice\Application\obj\Debug\netstandard2.0\EFCorePractice.Application.pdb

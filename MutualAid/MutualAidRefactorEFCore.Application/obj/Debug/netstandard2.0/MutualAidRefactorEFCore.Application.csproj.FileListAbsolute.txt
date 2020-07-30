@@ -1,0 +1,14 @@
+C:\Users\Lauren Miles\OneDrive\Projects\MutualAid\MutualAidRefactorEFCore.Application\bin\Debug\netstandard2.0\MutualAidRefactorEFCore.Application.deps.json
+C:\Users\Lauren Miles\OneDrive\Projects\MutualAid\MutualAidRefactorEFCore.Application\bin\Debug\netstandard2.0\MutualAidRefactorEFCore.Application.dll
+C:\Users\Lauren Miles\OneDrive\Projects\MutualAid\MutualAidRefactorEFCore.Application\bin\Debug\netstandard2.0\MutualAidRefactorEFCore.Application.pdb
+C:\Users\Lauren Miles\OneDrive\Projects\MutualAid\MutualAidRefactorEFCore.Application\obj\Debug\netstandard2.0\MutualAidRefactorEFCore.Application.csprojAssemblyReference.cache
+C:\Users\Lauren Miles\OneDrive\Projects\MutualAid\MutualAidRefactorEFCore.Application\obj\Debug\netstandard2.0\MutualAidRefactorEFCore.Application.AssemblyInfoInputs.cache
+C:\Users\Lauren Miles\OneDrive\Projects\MutualAid\MutualAidRefactorEFCore.Application\obj\Debug\netstandard2.0\MutualAidRefactorEFCore.Application.AssemblyInfo.cs
+C:\Users\Lauren Miles\OneDrive\Projects\MutualAid\MutualAidRefactorEFCore.Application\obj\Debug\netstandard2.0\MutualAidRefactorEFCore.Application.dll
+C:\Users\Lauren Miles\OneDrive\Projects\MutualAid\MutualAidRefactorEFCore.Application\obj\Debug\netstandard2.0\MutualAidRefactorEFCore.Application.pdb
+C:\Users\Lauren Miles\OneDrive\Projects\MutualAid\MutualAidRefactorEFCore.Application\bin\Debug\netstandard2.0\MutualAidRefactorEFCore.Data.dll
+C:\Users\Lauren Miles\OneDrive\Projects\MutualAid\MutualAidRefactorEFCore.Application\bin\Debug\netstandard2.0\MutualAidRefactorEFCore.Framework.dll
+C:\Users\Lauren Miles\OneDrive\Projects\MutualAid\MutualAidRefactorEFCore.Application\bin\Debug\netstandard2.0\MutualAidRefactorEFCore.Data.pdb
+C:\Users\Lauren Miles\OneDrive\Projects\MutualAid\MutualAidRefactorEFCore.Application\bin\Debug\netstandard2.0\MutualAidRefactorEFCore.Framework.pdb
+C:\Users\Lauren Miles\OneDrive\Projects\MutualAid\MutualAidRefactorEFCore.Application\obj\Debug\netstandard2.0\MutualAidRefactorEFCore.Application.csproj.CopyComplete
+C:\Users\Lauren Miles\OneDrive\Projects\MutualAid\MutualAidRefactorEFCore.Application\obj\Debug\netstandard2.0\MutualAidRefactorEFCore.Application.csproj.CoreCompileInputs.cache

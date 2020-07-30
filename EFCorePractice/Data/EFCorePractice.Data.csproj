@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200717142032_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200717142032_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200717142216_Creat.cs" />
+    <Compile Remove="Migrations\20200717142216_Creat.Designer.cs" />
+    <Compile Remove="Migrations\20200720180030_Update.cs" />
+    <Compile Remove="Migrations\20200720180030_Update.Designer.cs" />
+    <Compile Remove="Migrations\20200720192632_AddedValuesToItemsTable.cs" />
+    <Compile Remove="Migrations\20200720192632_AddedValuesToItemsTable.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.6">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="3.1.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.6">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Framework\EFCorePractice.Framework.csproj" />
+  </ItemGroup>
+
+</Project>

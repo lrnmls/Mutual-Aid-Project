@@ -1,0 +1,11 @@
+﻿@model MutualAidRefactorEFCore.UI.Models.UserViewModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>User Homepage</h1>
+<p>Good afternoon, @Model.FirstName!</p>
+
+<a asp-controller="User" asp-action="UserDetails">My Information</a>
+<a asp-controller="User" asp-action="EditUserInfo">Edit My Information</a>
+<a asp-controller="Request" asp-action="CreateRequest">Add Request</a>

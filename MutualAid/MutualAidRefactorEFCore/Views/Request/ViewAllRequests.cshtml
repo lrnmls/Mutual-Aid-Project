@@ -1,0 +1,146 @@
+﻿@model IEnumerable<MutualAidRefactorEFCore.UI.Models.RequestViewModel>
+
+@{
+    ViewData["Title"] = "View All Requests";
+}
+
+<h1>All Requests</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.UserId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsAccepted)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Date)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ToiletPaper)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PaperTowels)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HandSoap)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Shampoo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Conditioner)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Toothpaste)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Disinfectant)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Dairy)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Bread)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Produce)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CannedFood)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Meat)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Seafood)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cereal)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pantry)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Allergens)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsAccepted)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Date)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ToiletPaper)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PaperTowels)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HandSoap)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Shampoo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Conditioner)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Toothpaste)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Disinfectant)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Dairy)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Bread)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Produce)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CannedFood)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Meat)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Seafood)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cereal)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Pantry)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Allergens)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

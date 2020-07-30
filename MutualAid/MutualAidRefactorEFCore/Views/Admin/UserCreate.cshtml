@@ -1,0 +1,70 @@
+﻿@model MutualAidRefactorEFCore.UI.Models.RegisterViewModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create User</h1>
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="UserCreate" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Password" class="control-label"></label>
+                <input asp-for="Password" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ConfirmPassword" class="control-label"></label>
+                <input asp-for="ConfirmPassword" class="form-control" />
+                <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FirstName" class="control-label"></label>
+                <input asp-for="FirstName" class="form-control" />
+                <span asp-validation-for="FirstName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LastName" class="control-label"></label>
+                <input asp-for="LastName" class="form-control" />
+                <span asp-validation-for="LastName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PhoneNumber" class="control-label"></label>
+                <input asp-for="PhoneNumber" class="form-control" />
+                <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="County" class="control-label"></label>
+                <select asp-for="County" asp-items="MutualAidRefactorEFCore.UI.Models.RegisterViewModel.OhioCounties" class="dropdown"></select>
+                <span asp-validation-for="County" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">Admin</label>
+                <p>
+                    <label for="isAdmin">Yes</label>
+                    <input type="radio" name="isAdmin" asp-for="isAdmin" value="true" />
+                    <label for="isAdmin">No</label>
+                    <input type="radio" name="isAdmin" asp-for="isAdmin" value="false" />
+                </p>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="ViewAllUsers">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

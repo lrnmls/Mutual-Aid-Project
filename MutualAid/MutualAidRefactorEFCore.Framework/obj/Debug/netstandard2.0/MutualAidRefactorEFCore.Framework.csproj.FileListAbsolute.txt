@@ -1,0 +1,9 @@
+C:\Users\Lauren Miles\OneDrive\Projects\MutualAid\MutualAidRefactorEFCore.Framework\bin\Debug\netstandard2.0\MutualAidRefactorEFCore.Framework.deps.json
+C:\Users\Lauren Miles\OneDrive\Projects\MutualAid\MutualAidRefactorEFCore.Framework\bin\Debug\netstandard2.0\MutualAidRefactorEFCore.Framework.dll
+C:\Users\Lauren Miles\OneDrive\Projects\MutualAid\MutualAidRefactorEFCore.Framework\obj\Debug\netstandard2.0\MutualAidRefactorEFCore.Framework.csprojAssemblyReference.cache
+C:\Users\Lauren Miles\OneDrive\Projects\MutualAid\MutualAidRefactorEFCore.Framework\obj\Debug\netstandard2.0\MutualAidRefactorEFCore.Framework.AssemblyInfoInputs.cache
+C:\Users\Lauren Miles\OneDrive\Projects\MutualAid\MutualAidRefactorEFCore.Framework\obj\Debug\netstandard2.0\MutualAidRefactorEFCore.Framework.AssemblyInfo.cs
+C:\Users\Lauren Miles\OneDrive\Projects\MutualAid\MutualAidRefactorEFCore.Framework\bin\Debug\netstandard2.0\MutualAidRefactorEFCore.Framework.pdb
+C:\Users\Lauren Miles\OneDrive\Projects\MutualAid\MutualAidRefactorEFCore.Framework\obj\Debug\netstandard2.0\MutualAidRefactorEFCore.Framework.csproj.CoreCompileInputs.cache
+C:\Users\Lauren Miles\OneDrive\Projects\MutualAid\MutualAidRefactorEFCore.Framework\obj\Debug\netstandard2.0\MutualAidRefactorEFCore.Framework.dll
+C:\Users\Lauren Miles\OneDrive\Projects\MutualAid\MutualAidRefactorEFCore.Framework\obj\Debug\netstandard2.0\MutualAidRefactorEFCore.Framework.pdb
